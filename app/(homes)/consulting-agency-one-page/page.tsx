@@ -2,7 +2,6 @@ import Header2 from "@/components/headers/Header2";
 import Topbar1 from "@/components/headers/Topbar1";
 import About from "@/components/common/About";
 import Benefits from "@/components/common/Benefits";
-import CaseStudies from "@/components/homes/consulting-agency/CaseStudies";
 import Contact from "@/components/common/Contact";
 import Features from "@/components/common/Features2";
 import Hero from "@/components/homes/consulting-agency/Hero";
@@ -16,9 +15,9 @@ import Footer1 from "@/components/footers/Footer1";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
-    "Consulting Agency One Page || FinWice - Business & Finance Consulting - React Nextjs Template",
+    "Cand Capital Limited - Expert Fund Recovery & Financial Investigations",
   description:
-    "FinWice - Business & Finance Consulting - React Nextjs Template",
+    "Cand Capital Limited helps scam victims recover lost funds through legal, forensic, and digital solutions. Expert fund recovery services since 2017.",
 };
 export default function page() {
   return (
@@ -32,7 +31,6 @@ export default function page() {
         <Services />
         <Process />
         <Features />
-        <CaseStudies />
         <Testimonials />
         <Contact />
         <Blogs />

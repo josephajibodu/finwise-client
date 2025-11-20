@@ -44,12 +44,20 @@ export default function Hero() {
                         {slide.subtitle}
                       </div>
                       <div className="tf-fade-top fade-item-3">
-                        <Link
-                          href={`/about-us`}
-                          className="tf-btn style-1 bg-white"
-                        >
-                          <span>Schedule A Consultation</span>
-                        </Link>
+                        <div className="tf-btn-group g-16">
+                          <Link
+                            href={`/contact-us`}
+                            className="tf-btn style-1 bg-white"
+                          >
+                            <span>{slide.buttonText}</span>
+                          </Link>
+                          <Link
+                            href={`/contact-us`}
+                            className="tf-btn style-1 border-white bg-transparent"
+                          >
+                            <span>RECOVER FUNDS</span>
+                          </Link>
+                        </div>
                       </div>
                     </div>
                   </div>

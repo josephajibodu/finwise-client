@@ -18,12 +18,11 @@ export default function Benefits() {
                   <h5 className="wow fadeInUp">
                     <a href="#" className="title-box">
                       {" "}
-                      Tailored Strategies{" "}
+                      Since 2017{" "}
                     </a>
                   </h5>
                   <div className="sub-title wow fadeInUp">
-                    Customized financial plans designed to meet your unique
-                    goals and financial situation.
+                    A proven reputation in the global fund recovery space.
                   </div>
                 </div>
               </div>
@@ -35,12 +34,11 @@ export default function Benefits() {
                   <h5 className="wow fadeInUp" data-wow-delay=".1s">
                     <a href="#" className="title-box">
                       {" "}
-                      Investment Growth{" "}
+                      Technological Edge{" "}
                     </a>
                   </h5>
                   <div className="sub-title wow fadeInUp" data-wow-delay=".1s">
-                    Expert strategies to enhance investment returns and drive
-                    consistent growth for you.
+                    Advanced tools like Wallet API analysis, smart contract tracing, and blockchain forensics.
                   </div>
                 </div>
               </div>
@@ -52,29 +50,11 @@ export default function Benefits() {
                   <h5 className="wow fadeInUp" data-wow-delay=".2s">
                     <a href="#" className="title-box">
                       {" "}
-                      Financial Security{" "}
+                      Legal Reach{" "}
                     </a>
                   </h5>
                   <div className="sub-title wow fadeInUp" data-wow-delay=".2s">
-                    Comprehensive solutions to safeguard assets and ensure
-                    long-term financial stability and safety.
-                  </div>
-                </div>
-              </div>
-              <div className="box-icon">
-                <div className="icon wow fadeInUp" data-wow-delay=".3s">
-                  <i className="icon-tax" />
-                </div>
-                <div className="box-content">
-                  <h5 className="wow fadeInUp" data-wow-delay=".3s">
-                    <a href="#" className="title-box">
-                      {" "}
-                      Tax Savings{" "}
-                    </a>
-                  </h5>
-                  <div className="sub-title wow fadeInUp" data-wow-delay=".3s">
-                    Effective strategies to minimize tax liabilities and enhance
-                    financial returns and savings.
+                    Cross-border coordination with licensed recovery attorneys.
                   </div>
                 </div>
               </div>

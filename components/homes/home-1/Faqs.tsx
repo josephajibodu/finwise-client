@@ -22,19 +22,17 @@ export default function Faqs() {
                     </a>
                   </div>
                   <h3 className="title-section mb-12 text-anime-wave">
-                    Proven Results You Can See
+                    Frequently Asked Questions
                   </h3>
                   <div className="sub-title body-2 text-anime-wave mb-40">
-                    Find answers to some of the most common questions about
-                    financial planning, from budgeting and investment strategies
-                    to retirement planning and managing debt.
+                    Get clear, concise information about how our recovery services work, what to expect, and why clients trust us worldwide.
                   </div>
                   <div className="text-anime-wave">
                     <Link
                       href={`/contact-us`}
                       className="tf-btn style-1 bg-on-suface-container"
                     >
-                      <span> Schedule A Consultation </span>
+                      <span> Request A Call Back </span>
                     </Link>
                   </div>
                 </div>
@@ -46,23 +44,19 @@ export default function Faqs() {
                       <a
                         href="#according-1"
                         data-bs-toggle="collapse"
-                        className="title-according collapsed"
+                        className="title-according"
                       >
-                        What is financial planning? <span />
+                        What types of scams can Cand Capital Limited help with? <span />
                       </a>
                     </h5>
                     <div
                       id="according-1"
-                      className="collapse"
+                      className="collapse show"
                       data-bs-parent="#According"
                     >
                       <div className="according-content">
                         <p>
-                          Financial planning helps you understand your financial
-                          situation, set achievable goals, and create a roadmap
-                          to reach those goals. It can provide peace of mind,
-                          help you make informed decisions, and prepare for
-                          unexpected events.
+                          Cand Capital Limited specializes in recovering funds lost to a wide range of scams including cryptocurrency fraud, unregulated forex and trading platforms, romance scams, fake investment schemes, and online financial deception. Our team uses legal, forensic, and digital tools to trace and reclaim lost assets.
                         </p>
                       </div>
                     </div>
@@ -72,24 +66,20 @@ export default function Faqs() {
                       <a
                         href="#according-2"
                         data-bs-toggle="collapse"
-                        className="title-according"
+                        className="title-according collapsed"
                       >
-                        Why is financial planning important?
+                        How does the recovery process work?
                         <span />
                       </a>
                     </h5>
                     <div
                       id="according-2"
-                      className="collapse show"
+                      className="collapse"
                       data-bs-parent="#According"
                     >
                       <div className="according-content">
                         <p>
-                          Financial planning helps you understand your financial
-                          situation, set achievable goals, and create a roadmap
-                          to reach those goals. It can provide peace of mind,
-                          help you make informed decisions, and prepare for
-                          unexpected events.
+                          Our recovery process begins with a confidential case review where we assess your situation and gather evidence. We then use advanced forensic tools to trace your funds, collaborate with financial institutions and law enforcement, and pursue legal actions when necessary. Throughout the process, we maintain transparency and keep you informed of progress.
                         </p>
                       </div>
                     </div>
@@ -101,7 +91,7 @@ export default function Faqs() {
                         data-bs-toggle="collapse"
                         className="title-according collapsed"
                       >
-                        How often should I review my financial plan?
+                        Is there an upfront payment required?
                         <span />
                       </a>
                     </h5>
@@ -112,11 +102,7 @@ export default function Faqs() {
                     >
                       <div className="according-content">
                         <p>
-                          Financial planning helps you understand your financial
-                          situation, set achievable goals, and create a roadmap
-                          to reach those goals. It can provide peace of mind,
-                          help you make informed decisions, and prepare for
-                          unexpected events.
+                          We operate on a fully contractual and transparent fee structure. Payment is typically required only upon successful recovery of your funds. We provide clear terms and conditions upfront, ensuring you understand all costs before we begin work on your case.
                         </p>
                       </div>
                     </div>
@@ -128,7 +114,7 @@ export default function Faqs() {
                         data-bs-toggle="collapse"
                         className="title-according collapsed"
                       >
-                        What are the key components of a financial plan?
+                        How secure is my personal and financial information?
                         <span />
                       </a>
                     </h5>
@@ -139,11 +125,7 @@ export default function Faqs() {
                     >
                       <div className="according-content">
                         <p>
-                          Financial planning helps you understand your financial
-                          situation, set achievable goals, and create a roadmap
-                          to reach those goals. It can provide peace of mind,
-                          help you make informed decisions, and prepare for
-                          unexpected events.
+                          We take confidentiality and data security seriously. All personal and financial information is handled with strict confidentiality protocols. We use encrypted channels for communication and storage, and we only share information with authorized parties involved in your recovery case. Your privacy is our priority.
                         </p>
                       </div>
                     </div>
@@ -155,8 +137,7 @@ export default function Faqs() {
                         data-bs-toggle="collapse"
                         className="title-according collapsed"
                       >
-                        Do I need a financial advisor to create a financial
-                        plan? <span />
+                        What makes Cand Capital Limited different from other recovery companies? <span />
                       </a>
                     </h5>
                     <div
@@ -166,11 +147,7 @@ export default function Faqs() {
                     >
                       <div className="according-content">
                         <p>
-                          Financial planning helps you understand your financial
-                          situation, set achievable goals, and create a roadmap
-                          to reach those goals. It can provide peace of mind,
-                          help you make informed decisions, and prepare for
-                          unexpected events.
+                          Since 2017, we've built a proven reputation in the global fund recovery space. Our team combines deep forensic expertise, advanced technological tools like blockchain forensics, and extensive legal reach through our network of licensed recovery attorneys worldwide. We offer a client-first approach with fully transparent, contractual fees and maintain regular communication throughout the recovery process.
                         </p>
                       </div>
                     </div>

@@ -10,16 +10,15 @@ export default function Cta() {
             <div className="cta-inner style-2">
               <div className="cta-content">
                 <h4 className="title-content">
-                  Ready To Take Your Business To The Next Level? Let’s Build
-                  Your
+                  Expert Fund Recovery You Can Trust.
                   <br />
-                  Success Together Today!
+                  Scammed online? We help victims recover lost funds through legal and forensic solutions.
                 </h4>
                 <Link
                   href={`/contact-us`}
                   className="tf-btn style-1 bg-white text-center"
                 >
-                  <span> Schedule A Consultation </span>
+                  <span> RECOVER NOW </span>
                 </Link>
               </div>
             </div>

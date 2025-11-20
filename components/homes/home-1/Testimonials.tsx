@@ -19,23 +19,22 @@ export default function Testimonials() {
               <div className="left">
                 <div className="text-anime-wave">
                   <a href="#" className="tag label text-btn-uppercase">
-                    Testimonials
+                    Client Testimonials
                   </a>
                 </div>
                 <h3 className="title-section mb-12 text-anime-wave">
-                  Proven Results You Can See
+                  Real Stories, Real Results
                 </h3>
                 <div className="sub-title body-2 text-anime-wave">
-                  See the impact of our solutions through clear, measurable
-                  results.
+                  Discover how we've helped clients recover their funds and rebuild their confidence.
                 </div>
               </div>
               <div className="text-anime-wave-2">
                 <Link
-                  href={`/testimonials`}
+                  href={`/contact-us`}
                   className="tf-btn style-1 bg-on-suface-container"
                 >
-                  <span> Read All Testimonials </span>
+                  <span> Get Started </span>
                 </Link>
               </div>
             </div>

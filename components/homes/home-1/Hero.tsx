@@ -2,22 +2,25 @@
 import Link from "next/link";
 const slides = [
   {
-    title: "Empowering Your<br />Financial Future",
+    title: "Recover What's Yours &<br />Rebuild Stronger",
     subtitle:
-      " Unlock your financial potential with personalized planning and expert advice<br>tailored to your goals.",
-    buttonText: "View All Services",
+      "With expert-led asset tracing, legal enforcement, and digital forensics, Cand Capital Limited helps you take back control.",
+    buttonText: "GET STARTED",
+    buttonText2: "RECOVER FUNDS",
   },
   {
-    title: "Building Your<br>Financial Journey",
+    title: "Recover What's Yours &<br />Rebuild Stronger",
     subtitle:
-      "Achieve your financial goals through tailored strategies and expert guidance<br>made just for you.",
-    buttonText: "View All Services",
+      "With expert-led asset tracing, legal enforcement, and digital forensics, Cand Capital Limited helps you take back control.",
+    buttonText: "GET STARTED",
+    buttonText2: "RECOVER FUNDS",
   },
   {
-    title: "Transforming Your<br>Financial Future",
+    title: "Recover What's Yours &<br />Rebuild Stronger",
     subtitle:
-      " Personalized financial guidance and planning to help you unlock your<br>full potential and succeed.",
-    buttonText: "View All Services",
+      "With expert-led asset tracing, legal enforcement, and digital forensics, Cand Capital Limited helps you take back control.",
+    buttonText: "GET STARTED",
+    buttonText2: "RECOVER FUNDS",
   },
 ];
 import React from "react";
@@ -55,12 +58,20 @@ export default function Hero() {
                         dangerouslySetInnerHTML={{ __html: slide.subtitle }}
                         className="sub-title body-2 tf-fade-top fade-item-2"
                       ></div>
-                      <Link
-                        href="/our-services-1"
-                        className="tf-btn style-1 bg-white tf-fade-top fade-item-3"
-                      >
-                        <span>{slide.buttonText}</span>
-                      </Link>
+                      <div className="tf-btn-group g-16 tf-fade-top fade-item-3">
+                        <Link
+                          href="/contact-us"
+                          className="tf-btn style-1 bg-white"
+                        >
+                          <span>{slide.buttonText}</span>
+                        </Link>
+                        <Link
+                          href="/contact-us"
+                          className="tf-btn style-1 border-white bg-transparent"
+                        >
+                          <span>{slide.buttonText2}</span>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>

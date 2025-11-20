@@ -53,11 +53,10 @@ export default function NewsLetterForm({
   };
   return (
     <form onSubmit={sendEmail}>
-      {" "}
       <fieldset>
-        <input name="email" type="text" placeholder={placeholder} />
-        <button type="submit" className="tf-btn-newsletter">
-          <i className="icon-PaperPlaneTilt" />
+        <input name="email" type="email" placeholder={placeholder} required />
+        <button type="submit" className="tf-btn style-1 bg-on-suface-container" style={{ marginTop: "12px", width: "100%" }}>
+          <span>SUBMIT NOW</span>
         </button>
       </fieldset>
       <div

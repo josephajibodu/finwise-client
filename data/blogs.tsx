@@ -4,12 +4,12 @@ export const posts = [
     imgSrc: "/image/blog/tf-post-grid-13.jpg",
     imgWidth: 403,
     imgHeight: 303,
-    category: "Strategy Consulting",
-    title: "5 Key Strategies for Sustainable Business Growth",
+    category: "Scam Alert",
+    title: "How to Recover Your Funds From Scams – Comprehensive Guide by Cand Capital Ltd",
     description:
-      "Discover actionable strategies to effectively scale your business and achieve long-term success",
+      "Introduction: The Rising Threat of Scams. Scams have become an increasingly common threat. Learn how to protect yourself and recover lost funds.",
     date: {
-      day: "18",
+      day: "24",
       month: "DEC",
     },
   },
@@ -18,12 +18,12 @@ export const posts = [
     imgSrc: "/image/blog/tf-post-grid-8.jpg",
     imgWidth: 400,
     imgHeight: 300,
-    category: "Financial Advisory",
-    title: "Navigating Digital Transformation in 2024",
+    category: "Recovery Tips",
+    title: "Recognizing Cryptocurrency Scam Red Flags",
     description:
-      "Learn how to adapt to new technologies and stay ahead of the competition",
+      "Learn to identify warning signs of crypto scams before you invest and discover how to recover if you've been victimized.",
     date: {
-      day: "18",
+      day: "20",
       month: "DEC",
     },
   },
@@ -32,10 +32,10 @@ export const posts = [
     imgSrc: "/image/blog/tf-post-grid-14.jpg",
     imgWidth: 404,
     imgHeight: 303,
-    category: "Marketing Strategy",
-    title: "Mastering Financial Planning for Success",
+    category: "Protection Guide",
+    title: "Business Email Compromise: How to Protect Your Company",
     description:
-      "Expert advice on managing finances to drive profitability and growth",
+      "BEC scams are on the rise. Learn how to protect your business and what to do if you've fallen victim to a BEC attack.",
     date: {
       day: "18",
       month: "DEC",

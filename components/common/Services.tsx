@@ -20,15 +20,15 @@ export default function Services() {
                   </a>
                 </div>
                 <h3 className="title-section text-anime-wave">
-                  Custom Strategies for Your Goals
+                  Comprehensive Solutions for Financial Recovery
                 </h3>
               </div>
               <div className="text-anime-wave-2">
                 <Link
-                  href="/our-services-1"
+                  href="/contact-us"
                   className="tf-btn style-1 bg-on-suface-container"
                 >
-                  <span> View All Services </span>
+                  <span> RECOVER FUNDS </span>
                 </Link>
               </div>
             </div>

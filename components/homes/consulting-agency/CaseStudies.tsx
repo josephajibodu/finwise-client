@@ -18,14 +18,14 @@ export default function CaseStudies() {
             <div className="heading-section text-center">
               <div className="text-anime-wave-1">
                 <a href="#" className="tag label text-btn-uppercase bg-white">
-                  Our Featured Projects
+                  Client Testimonials
                 </a>
               </div>
               <h3 className="title-section text-anime-wave-1 mb-12">
-                Success Stories
+                Real Stories, Real Results
               </h3>
               <div className="sub-title body-2 text-anime-wave-1">
-                Discover how we’ve helped clients achieve remarkable results.
+                Discover how we've helped clients recover their funds and rebuild their confidence.
               </div>
             </div>
           </div>

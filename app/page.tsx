@@ -1,23 +1,22 @@
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import Topbar1 from "@/components/headers/Topbar1";
-import About from "@/components/homes/home-1/About";
-import Awards from "@/components/common/Awards";
-import Benefits from "@/components/homes/home-1/Benefits";
+import About from "@/components/common/About";
+import Benefits from "@/components/common/Benefits";
+import Contact from "@/components/common/Contact";
+import Features from "@/components/common/Features2";
+import Hero from "@/components/homes/consulting-agency/Hero";
+import Process from "@/components/common/Process";
+import Services from "@/components/common/Services2";
+import Testimonials from "@/components/common/Testimonials";
 import Blogs from "@/components/common/Blogs";
-import CaseStudies from "@/components/homes/home-1/CaseStudies";
-import Cta from "@/components/common/Cta2";
-import Faqs from "@/components/homes/home-1/Faqs";
-import Hero from "@/components/homes/home-1/Hero";
-import Process from "@/components/homes/home-1/Process";
-import Services from "@/components/common/Services";
-import Testimonials from "@/components/homes/home-1/Testimonials";
+import Cta from "@/components/common/Cta";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
-    "Financial Planning || FinWice - Business & Finance Consulting - React Nextjs Template",
+    "Cand Capital Limited - Expert Fund Recovery & Financial Investigations",
   description:
-    "FinWice - Business & Finance Consulting - React Nextjs Template",
+    "Cand Capital Limited helps scam victims recover lost funds through legal, forensic, and digital solutions. Expert fund recovery services since 2017.",
 };
 export default function Home() {
   return (
@@ -26,15 +25,14 @@ export default function Home() {
       <Header1 />
       <Hero />
       <div className="main-content">
-        <About />
         <Benefits />
+        <About />
         <Services />
         <Process />
-        <CaseStudies />
+        <Features />
         <Testimonials />
-        <Faqs />
+        <Contact />
         <Blogs />
-        <Awards />
         <Cta />
       </div>
       <Footer1 />

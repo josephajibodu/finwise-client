@@ -1,18 +1,18 @@
 export const slides = [
   {
-    title: "Expert Solutions\nDriving Success",
-    subtitle: "Collaborating to create a roadmap for your triumph.",
-    buttonText: "Schedule A Consultation",
+    title: "Recover What's Yours &\nRebuild Stronger",
+    subtitle: "With expert-led asset tracing, legal enforcement, and digital forensics, Cand Capital Limited helps you take back control.",
+    buttonText: "GET STARTED",
   },
   {
-    title: "Innovative Thinking\nAchieving Results",
-    subtitle: "Creating a winning strategy through collaboration.",
-    buttonText: "Schedule A Consultation",
+    title: "Recover What's Yours &\nRebuild Stronger",
+    subtitle: "With expert-led asset tracing, legal enforcement, and digital forensics, Cand Capital Limited helps you take back control.",
+    buttonText: "GET STARTED",
   },
   {
-    title: "Professional Insight\nDriving Success",
-    subtitle: "Joining forces to craft your path to achievement.",
-    buttonText: "Schedule A Consultation",
+    title: "Recover What's Yours &\nRebuild Stronger",
+    subtitle: "With expert-led asset tracing, legal enforcement, and digital forensics, Cand Capital Limited helps you take back control.",
+    buttonText: "GET STARTED",
   },
 ];
 

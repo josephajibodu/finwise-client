@@ -1,27 +1,27 @@
 export const boxIconItems = [
   {
     iconClass: "icon-tailored",
-    title: "Cost Optimization",
+    title: "Since 2017",
     description:
-      "We deliver cost-effective consulting solutions that streamline your operations, cut unnecessary expenses, and boost profitability.",
+      "A proven reputation in the global fund recovery space.",
   },
   {
     iconClass: "icon-investment",
-    title: "Cutting-Edge Solutions",
+    title: "Technological Edge",
     description:
-      "Leverage the latest technological advancements with our innovative consulting services that keep your business ahead of the curve.",
+      "Advanced tools like Wallet API analysis, smart contract tracing, and blockchain forensics.",
   },
   {
     iconClass: "icon-financial",
-    title: "Tailored Industry Insights",
+    title: "Legal Reach",
     description:
-      "Our deep industry knowledge allows us to provide specialized insights and customized strategies that fit your specific business needs.",
+      "Cross-border coordination with licensed recovery attorneys.",
   },
   {
     iconClass: "icon-tax",
-    title: "Scalable Growth",
+    title: "Client-First Approach",
     description:
-      "Our consulting solutions are designed to scale with your business, providing the flexibility to adapt and grow without constraints.",
+      "Confidential, transparent, and fully contractual recovery process.",
   },
 ];
 

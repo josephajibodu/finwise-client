@@ -3,7 +3,6 @@ import React from "react";
 export default function Faqs() {
   return (
     <>
-      {" "}
       <div className="according-item style-arrow style-small">
         <h6>
           <a
@@ -11,16 +10,14 @@ export default function Faqs() {
             data-bs-toggle="collapse"
             className="title-according collapsed"
           >
-            What consulting services do you offer?
+            How quickly can you respond to a BEC attack?
             <i className="icon-chevron-down" />
           </a>
         </h6>
         <div id="according1" className="collapse" data-bs-parent="#According1">
           <div className="according-content">
             <p>
-              We conduct in-depth assessments of your business needs, industry
-              landscape, and competitive environment to develop customized
-              strategies that align with your specific goals.
+              Time is critical in BEC recovery. We initiate immediate case review and begin forensic investigation within 24 hours of receiving your case details. Our rapid response protocol is designed to freeze transfers and trace funds before they disappear completely.
             </p>
           </div>
         </div>
@@ -32,16 +29,14 @@ export default function Faqs() {
             data-bs-toggle="collapse"
             className="title-according collapsed"
           >
-            How do your services integrate with existing business structures?
+            What information do you need to start the recovery process?
             <i className="icon-chevron-down" />
           </a>
         </h6>
         <div id="according2" className="collapse" data-bs-parent="#According1">
           <div className="according-content">
             <p>
-              We conduct in-depth assessments of your business needs, industry
-              landscape, and competitive environment to develop customized
-              strategies that align with your specific goals.
+              We need details of the fraudulent email, compromised transaction, timeline of events, recipient bank information, and any correspondence with the scammer. The more information you can provide, the faster we can begin tracing and recovery efforts.
             </p>
           </div>
         </div>
@@ -53,16 +48,14 @@ export default function Faqs() {
             data-bs-toggle="collapse"
             className="title-according collapsed"
           >
-            Can I tailor your consulting services to suit my business?{" "}
+            Can you recover funds that were sent to crypto wallets?{" "}
             <i className="icon-chevron-down" />
           </a>
         </h6>
         <div id="according3" className="collapse" data-bs-parent="#According1">
           <div className="according-content">
             <p>
-              We conduct in-depth assessments of your business needs, industry
-              landscape, and competitive environment to develop customized
-              strategies that align with your specific goals.
+              Yes, our forensic team specializes in blockchain tracing and cryptocurrency recovery. We use advanced tools like Wallet API analysis and smart contract tracing to track funds through crypto exchanges and wallets. Recovery depends on timing and whether the funds have been moved or converted.
             </p>
           </div>
         </div>
@@ -74,17 +67,33 @@ export default function Faqs() {
             data-bs-toggle="collapse"
             className="title-according collapsed"
           >
-            What kind of ongoing consultation do you offer after the initial
-            service?
+            What is your fee structure for BEC recovery?
             <i className="icon-chevron-down" />
           </a>
         </h6>
         <div id="according4" className="collapse" data-bs-parent="#According1">
           <div className="according-content">
             <p>
-              We conduct in-depth assessments of your business needs, industry
-              landscape, and competitive environment to develop customized
-              strategies that align with your specific goals.
+              We operate on a fully contractual, one-time fee structure. Payment is typically required only upon successful recovery. We provide clear terms and conditions upfront, ensuring you understand all costs before we begin work on your case. No hidden charges.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="according-item style-arrow style-small">
+        <h6>
+          <a
+            href="#according5"
+            data-bs-toggle="collapse"
+            className="title-according collapsed"
+          >
+            How long does BEC fund recovery typically take?
+            <i className="icon-chevron-down" />
+          </a>
+        </h6>
+        <div id="according5" className="collapse" data-bs-parent="#According1">
+          <div className="according-content">
+            <p>
+              Recovery timelines vary depending on complexity, but we aim for rapid response. Simple cases may see recovery within days, while complex international cases may take several weeks. We keep you informed throughout the process with regular updates.
             </p>
           </div>
         </div>

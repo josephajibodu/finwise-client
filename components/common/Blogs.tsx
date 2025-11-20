@@ -17,15 +17,14 @@ export default function Blogs() {
           <div className="heading-section text-center">
             <div className="text-anime-wave-1">
               <a href="#" className="tag label text-btn-uppercase">
-                READ OUR BLOG
+                Scam Alerts
               </a>
             </div>
             <h3 className="title-section text-anime-wave-1 mb-12">
-              Insights &amp; Ideas
+              Checkout recent scam trends
             </h3>
             <div className="sub-title body-2 text-anime-wave-1">
-              Get the latest insights, expert tips, and updates to stay informed
-              and inspired.
+              Stay informed about the latest scams and learn how to protect yourself from financial fraud.
             </div>
           </div>
         </div>

@@ -1,9 +1,6 @@
-"use client";
 import Link from "next/link";
-import Image from "next/image";
 import { services } from "@/data/services";
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function Services() {
   return (
@@ -22,33 +19,19 @@ export default function Services() {
                   </a>
                 </div>
                 <h3 className="title-section text-anime-wave-1 mb-12">
-                  Solutions for Your Growth
+                  Comprehensive Solutions for Financial Recovery
                 </h3>
                 <div className="sub-title body-2 text-anime-wave-1">
-                  Tailored solutions to drive your business growth and success.
+                  Expert fund recovery services to help you reclaim what's rightfully yours.
                 </div>
               </div>
             </div>
-            <Swiper
-              className="sw-services-list swiper sw-layout"
-              breakpoints={{
-                0: { slidesPerView: 1 },
-                575: {
-                  slidesPerView: 1,
-                },
-                768: {
-                  slidesPerView: 2,
-                  spaceBetween: 30,
-                },
-                1200: {
-                  slidesPerView: 4,
-                  spaceBetween: 30,
-                },
-              }}
-              spaceBetween={10}
-            >
+            <div className="row rg-30 mt-40">
               {services.map((service, index) => (
-                <SwiperSlide className="swiper-slide" key={index}>
+                <div
+                  className="col-lg-4 col-md-6 col-sm-12"
+                  key={index}
+                >
                   <div className="services-item">
                     <div className="icon color-primary mb-12">
                       <i className={service.iconClass} />
@@ -65,10 +48,9 @@ export default function Services() {
                       <div className="sub-title">{service.description}</div>
                     </div>
                   </div>
-                </SwiperSlide>
+                </div>
               ))}
-              <div className="sw-pagination-layout" />
-            </Swiper>
+            </div>
           </div>
         </div>
       </div>

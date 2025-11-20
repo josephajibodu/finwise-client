@@ -21,28 +21,58 @@ export default function About() {
                       <div className="heading-section">
                         <div className="text-anime-wave">
                           <a href="#" className="tag label text-btn-uppercase">
-                            WE ARE FinWice
+                            About Cand Capital Limited
                           </a>
                         </div>
                         <h3 className="title-section mb-28 text-anime-wave">
-                          Empowering Your Business
-                          <br />
-                          Success
+                          Your Global Partner in <span className="color-primary">Scam Recovery</span> and <span className="color-primary">Financial Justice</span>
                         </h3>
                         <div className="sub-title mb-32 text-anime-wave">
-                          At FinWice, we empower businesses with tailored
-                          strategies, innovative solutions, and
-                          <br />
-                          expert consulting. Our industry professionals drive
-                          growth and guide you through <br />
-                          challenges to achieve success.
+                          Founded in 2017, Cand Capital Limited is a leading fund recovery and financial investigation firm committed to helping victims of online scams reclaim what's rightfully theirs.
+                        </div>
+                        <p className="text mb-32 text-anime-wave">
+                          From fraudulent crypto platforms to unauthorized brokers and deceitful investment schemes, we provide structured, legal, and tech-powered solutions to trace and recover lost funds worldwide.
+                        </p>
+                        <div className="benefit-lists mb-32 text-anime-wave">
+                          <div className="benefit-items">
+                            <div className="icon">
+                              <i className="icon-checkbox" />
+                            </div>
+                            <div className="title">
+                              <strong>Proven Track Record:</strong> Hundreds of successful recoveries across more than 30 countries.
+                            </div>
+                          </div>
+                          <div className="benefit-items">
+                            <div className="icon">
+                              <i className="icon-checkbox" />
+                            </div>
+                            <div className="title">
+                              <strong>Experienced Team:</strong> Legal advisors, forensic investigators, and financial analysts working together.
+                            </div>
+                          </div>
+                          <div className="benefit-items">
+                            <div className="icon">
+                              <i className="icon-checkbox" />
+                            </div>
+                            <div className="title">
+                              <strong>One-Time Fee Structure:</strong> No hidden charges. Just a clear, contractual fee to initiate recovery.
+                            </div>
+                          </div>
+                          <div className="benefit-items">
+                            <div className="icon">
+                              <i className="icon-checkbox" />
+                            </div>
+                            <div className="title">
+                              <strong>Advanced Tools:</strong> We use digital forensics, blockchain analytics, wallet APIs, and institutional coordination to trace and recover assets.
+                            </div>
+                          </div>
                         </div>
                         <div className="text-anime-wave">
                           <Link
-                            href={`/about-us`}
+                            href={`/contact-us`}
                             className="tf-btn style-1 bg-on-suface-container"
                           >
-                            <span> About Us </span>
+                            <span> GET STARTED </span>
                           </Link>
                         </div>
                       </div>
@@ -78,34 +108,34 @@ export default function About() {
                           <li className="nav-tab-item" role="presentation">
                             <h6>
                               <a
-                                href="#expertise"
+                                href="#forensics"
                                 data-bs-toggle="tab"
                                 role="tab"
                                 className="active"
                               >
-                                Expertise
+                                Forensics
                               </a>
                             </h6>
                           </li>
                           <li className="nav-tab-item" role="presentation">
                             <h6>
                               <a
-                                href="#innovation"
+                                href="#legal"
                                 data-bs-toggle="tab"
                                 role="tab"
                               >
-                                Innovation
+                                Legal
                               </a>
                             </h6>
                           </li>
                           <li className="nav-tab-item" role="presentation">
                             <h6>
                               <a
-                                href="#commitment"
+                                href="#recovery"
                                 data-bs-toggle="tab"
                                 role="tab"
                               >
-                                Commitment
+                                Recovery
                               </a>
                             </h6>
                           </li>
@@ -114,38 +144,29 @@ export default function About() {
                       <div className="tab-content">
                         <div
                           className="tab-pane active show"
-                          id="expertise"
+                          id="forensics"
                           role="tabpanel"
                         >
                           <p className="text">
-                            Our team of experts delivers tailored insights and
-                            solutions, guiding you through complex challenges.
-                            Partner with us for impactful results and reliable
-                            support on your path to success.
+                            Our forensic team uses advanced tools like Wallet API analysis, smart contract tracing, and blockchain forensics to trace and recover stolen funds.
                           </p>
                         </div>
                         <div
                           className="tab-pane"
-                          id="innovation"
+                          id="legal"
                           role="tabpanel"
                         >
                           <p className="text">
-                            Our team of experts delivers tailored insights and
-                            solutions, guiding you through complex challenges.
-                            Partner with us for impactful results and reliable
-                            support on your path to success.
+                            We coordinate with licensed recovery attorneys across borders to enforce legal actions and recover your funds through proper legal channels.
                           </p>
                         </div>
                         <div
                           className="tab-pane"
-                          id="commitment"
+                          id="recovery"
                           role="tabpanel"
                         >
                           <p className="text">
-                            Our team of experts delivers tailored insights and
-                            solutions, guiding you through complex challenges.
-                            Partner with us for impactful results and reliable
-                            support on your path to success.
+                            With a proven reputation in the global fund recovery space since 2017, we have successfully recovered funds for thousands of scam victims worldwide.
                           </p>
                         </div>
                       </div>

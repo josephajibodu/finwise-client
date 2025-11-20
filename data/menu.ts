@@ -65,12 +65,15 @@ export const homeItems = [
   },
 ];
 
-export const serviceLinks = [
-  { title: "Our Services 1", href: "/our-services-1" },
-  { title: "Our Services 2", href: "/our-services-2" },
-  { title: "Services Details 1", href: "/services-details-1" },
-  { title: "Services Details 2", href: "/services-details-2" },
-  { title: "Services Details 3", href: "/services-details-3" },
+export const recoveryServiceLinks = [
+  { title: "BEC Scam Recovery", href: "/services-details-1" },
+  { title: "Chargeback Recovery", href: "/services-details-1" },
+  { title: "Cryptocurrency Recovery", href: "/services-details-1" },
+  { title: "Fake Brokerage Scam", href: "/services-details-1" },
+  { title: "Forex and Binary Scam", href: "/services-details-1" },
+  { title: "Investment Scam Recovery", href: "/services-details-1" },
+  { title: "Phishing and Email Scam", href: "/services-details-1" },
+  { title: "Romance Scam Recovery", href: "/services-details-1" },
 ];
 export const caseStudyLinks = [
   { title: "Case Studies 1", href: "/case-studies-1" },
@@ -100,10 +103,7 @@ export const productLinks = [
 
 export const blogLinks = [
   { title: "Blog Right Sidebar", href: "/blog-right-sidebar", current: true },
-  { title: "Blog Left Sidebar", href: "/blog-left-sidebar" },
-  { title: "Blog No Sidebar", href: "/blog-no-sidebar" },
   { title: "Blog Details 1", href: "/blog-details-1/1" },
-  { title: "Blog Details 2", href: "/blog-details-2/1" },
 ];
 
 export const navItemsDefaults = [

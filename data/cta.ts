@@ -1,15 +1,19 @@
 export const counters = [
   {
-    value: 15,
-    label: "Years experiences",
+    value: 1450,
+    label: "Successful Recoveries",
   },
   {
-    value: 3600,
-    label: "Happy customers",
+    value: 1864,
+    label: "Client Recommendations",
   },
   {
-    value: 900,
-    label: "Project completed",
+    value: 1380,
+    label: "Verified Case Outcomes",
+  },
+  {
+    value: 106,
+    label: "Partnered Professionals",
   },
 ];
 

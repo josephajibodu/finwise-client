@@ -5,9 +5,9 @@ import React from "react";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
-    "Service Details 01 || FinWice - Business & Finance Consulting - React Nextjs Template",
+    "Business Email Compromise (BEC) Fund Recovery - Cand Capital Limited",
   description:
-    "FinWice - Business & Finance Consulting - React Nextjs Template",
+    "Expert BEC scam recovery services. Cand Capital Limited helps victims of business email compromise attacks trace and recover lost funds through legal and forensic solutions.",
 };
 export default function page() {
   return (
@@ -17,7 +17,7 @@ export default function page() {
           <div className="page-title-content">
             <div className="breadkcum">
               <Link href={`/`} className="caption-1 home">
-                Homepage
+                Home
               </Link>{" "}
               <span className="arrow-svg">
                 <svg
@@ -48,49 +48,11 @@ export default function page() {
                   </defs>
                 </svg>
               </span>{" "}
-              <a href="#" className="caption-1 home">
-                Our Services
-              </a>{" "}
-              <span className="arrow-svg">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={20}
-                  height={20}
-                  viewBox="0 0 20 20"
-                  fill="none"
-                >
-                  <g clipPath="url(#clip0_9360_28061)">
-                    <path
-                      d="M3.125 10H16.875"
-                      stroke="#A2A3AB"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M11.25 4.375L16.875 10L11.25 15.625"
-                      stroke="#A2A3AB"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath>
-                      <rect width={20} height={20} fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </span>{" "}
               <span className="caption-1 page-breadkcum">
-                Retirement Planning
+                Business Email Compromise (BEC) Fund Recovery
               </span>
             </div>
-            <h2 className="title-page-title">Retirement Planning</h2>
-            <div className="sub-title body-2">
-              Develop and implement long-term plans to achieve business goals.
-              This includes
-              <br />
-              market analysis, internal assessments, and strategic development.
-            </div>
+            <h2 className="title-page-title">BUSINESS EMAIL COMPROMISE (BEC) FUND RECOVERY</h2>
           </div>
         </div>
       </div>

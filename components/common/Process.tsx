@@ -14,20 +14,16 @@ export default function Process() {
                     href="#"
                     className="tag label text-btn-uppercase color-white"
                   >
-                    steps to success
+                    Operation
                   </a>
                 </div>
                 <h3 className="title-section mb-12 text-anime-wave">
-                  Pathway to Success
+                  How We Work
                 </h3>
-                <div className="sub-title body-2 text-anime-wave">
-                  Follow our proven steps to achieve your goals and drive your
-                  business to success.
-                </div>
               </div>
               <div className="text-anime-wave-2">
                 <Link href={`/contact-us`} className="tf-btn style-1 bg-white">
-                  <span> Schedule A Consultation </span>
+                  <span> GET STARTED </span>
                 </Link>
               </div>
             </div>
@@ -36,7 +32,7 @@ export default function Process() {
       </div>
       <div className="tf-container position-relative">
         <div className="row rg-30">
-          <div className="col-md-4">
+          <div className="col-lg-3 col-md-6">
             <div className="process-item bg-1 step-hover">
               <div className="process-top">
                 <div className="icon">
@@ -47,17 +43,16 @@ export default function Process() {
               <div className="process-content">
                 <h5>
                   <a href="#" className="name-process">
-                    Discovery &amp; Analysis
+                    Free Case Review
                   </a>
                 </h5>
                 <div className="desc">
-                  We assess your business and industry to identify challenges
-                  and opportunities.
+                  We assess your case at no charge.
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-lg-3 col-md-6">
             <div className="process-item bg-1 step-hover">
               <div className="process-top">
                 <div className="icon">
@@ -68,17 +63,16 @@ export default function Process() {
               <div className="process-content">
                 <h5>
                   <a href="#" className="name-process">
-                    Strategic Planning
+                    Contractual Agreement
                   </a>
                 </h5>
                 <div className="desc">
-                  We create a tailored strategy with actionable steps and clear
-                  objectives.
+                  A one-time fee is issued only if recovery is viable.
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-lg-3 col-md-6">
             <div className="process-item bg-1 step-hover">
               <div className="process-top">
                 <div className="icon">
@@ -89,12 +83,31 @@ export default function Process() {
               <div className="process-content">
                 <h5>
                   <a href="#" className="name-process">
-                    Execution &amp; Monitoring
+                    Investigation Begins
                   </a>
                 </h5>
                 <div className="desc">
-                  We implement the plan, track progress, and adjust as needed to
-                  achieve your goals.
+                  We trace the scam source using forensic tools and legal pathways.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <div className="process-item bg-1 step-hover">
+              <div className="process-top">
+                <div className="icon">
+                  <i className="icon-Briefcase" />
+                </div>
+                <span className="label text-btn-uppercase">Step 4</span>
+              </div>
+              <div className="process-content">
+                <h5>
+                  <a href="#" className="name-process">
+                    Recovery Completion
+                  </a>
+                </h5>
+                <div className="desc">
+                  Funds are returned through secure financial channels.
                 </div>
               </div>
             </div>

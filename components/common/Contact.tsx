@@ -18,18 +18,14 @@ export default function Contact() {
                       href={`/contact-us`}
                       className="tag label text-btn-uppercase color-white"
                     >
-                      Contact US
+                      Request A Call Back
                     </Link>
                   </div>
                   <h3 className="title-section mb-12 wow fadeInUp">
-                    Get in Touch with Us
+                    Need Help Recovering Your Lost Funds? Let's Talk.
                   </h3>
                   <div className="sub-title body-2 wow fadeInUp">
-                    Reach out today to discuss how we can support your business
-                    goals. Our team is ready to
-                    <br />
-                    provide answers, offer solutions, and start your journey
-                    toward success.
+                    Submit your information below and one of our recovery experts will reach out to you as soon as possible for a confidential case review.
                   </div>
                 </div>
                 <div className="cols">

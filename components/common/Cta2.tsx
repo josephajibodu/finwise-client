@@ -24,22 +24,20 @@ export default function Cta() {
                     href={`/contact-us`}
                     className="tag label text-btn-uppercase bg-white wow fadeInUp"
                   >
-                    Contact US
+                    Global Fund Recovery
                   </Link>
                   <h3 className="title-section wow fadeInUp mb-12">
-                    Get in Touch with Us
+                    Expert Fund Recovery You Can Trust
                   </h3>
                   <div className="sub-title mb-28 body-2 wow fadeInUp">
-                    Reach out today to discuss how we can support your business
-                    goals. Our team is ready to provide answers, offer
-                    solutions, and start your journey toward success.
+                    Scammed online? We help victims recover lost funds through legal and forensic solutions.
                   </div>
                   <div className="bottom">
                     <Link
                       href={`/contact-us`}
                       className="tf-btn style-1 bg-white wow fadeInUp"
                     >
-                      <span>Schedule a Consultation</span>
+                      <span>RECOVER NOW</span>
                     </Link>
                     <div className="tf-phone no-border color-white g-14">
                       <a href="#" className="icon wow fadeInUp">
