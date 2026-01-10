@@ -63,7 +63,10 @@ export default function Footer1({ parentClass = "footer" }) {
                 <div className="contact-footer">
                   <div className="contact-footer-content">
                     <p className="caption-1">
-                      <i className="icon-PhoneCall" style={{ marginRight: "8px" }} />
+                      <i
+                        className="icon-PhoneCall"
+                        style={{ marginRight: "8px" }}
+                      />
                       ++44 121 468 3548
                     </p>
                   </div>
@@ -75,7 +78,10 @@ export default function Footer1({ parentClass = "footer" }) {
                   </div>
                   <div className="contact-footer-content">
                     <p className="caption-1">
-                      <i className="icon-Globe" style={{ marginRight: "8px" }} />
+                      <i
+                        className="icon-Globe"
+                        style={{ marginRight: "8px" }}
+                      />
                       www.candcapitalltd.com
                     </p>
                   </div>
@@ -90,7 +96,10 @@ export default function Footer1({ parentClass = "footer" }) {
                   <div className="tf-collapse-content">
                     <ul>
                       {recoveryServiceLinks.map((item, index) => (
-                        <li className="support-item-footer caption-1" key={index}>
+                        <li
+                          className="support-item-footer caption-1"
+                          key={index}
+                        >
                           <Link href={item.href}>
                             <span style={{ marginRight: "8px" }}>&gt;</span>
                             {item.title}
@@ -120,34 +129,10 @@ export default function Footer1({ parentClass = "footer" }) {
                         </Link>
                       </li>
                       <li className="support-item-footer caption-1">
-                        <Link href="/services-details-1">
-                          <span style={{ marginRight: "8px" }}>&gt;</span>
-                          Services
-                        </Link>
-                      </li>
-                      <li className="support-item-footer caption-1">
                         <Link href="/contact-us">
                           <span style={{ marginRight: "8px" }}>&gt;</span>
                           Contact
                         </Link>
-                      </li>
-                      <li className="support-item-footer caption-1">
-                        <Link href="/blog-right-sidebar">
-                          <span style={{ marginRight: "8px" }}>&gt;</span>
-                          Blog
-                        </Link>
-                      </li>
-                      <li className="support-item-footer caption-1">
-                        <a href="#">
-                          <span style={{ marginRight: "8px" }}>&gt;</span>
-                          Privacy
-                        </a>
-                      </li>
-                      <li className="support-item-footer caption-1">
-                        <a href="#">
-                          <span style={{ marginRight: "8px" }}>&gt;</span>
-                          Terms
-                        </a>
                       </li>
                     </ul>
                   </div>
@@ -158,7 +143,10 @@ export default function Footer1({ parentClass = "footer" }) {
                   <div className="label text-btn-uppercase">
                     Have you been Scammed?
                   </div>
-                  <div className="text caption-1" style={{ marginBottom: "16px" }}>
+                  <div
+                    className="text caption-1"
+                    style={{ marginBottom: "16px" }}
+                  >
                     Submit your email below and one of our recovery experts will
                     reach out to you as soon as possible for a confidential case
                     review.
@@ -175,7 +163,10 @@ export default function Footer1({ parentClass = "footer" }) {
           <div className="row">
             <div className="col-12">
               <div className="footer-bottom-inner">
-                <div className="left" style={{ width: "100%", textAlign: "center" }}>
+                <div
+                  className="left"
+                  style={{ width: "100%", textAlign: "center" }}
+                >
                   <div className="text caption-1">
                     © 2025 CAND CAPITAL LTD. ALL RIGHTS RESERVED.
                   </div>

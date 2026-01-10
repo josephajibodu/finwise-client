@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import {
-  blogLinks,
   recoveryServiceLinks,
 } from "@/data/menu";
 import { usePathname } from "next/navigation";
@@ -112,37 +111,6 @@ export default function MobileMenu() {
               }`}
             >
               <Link href="/contact-us">Contact</Link>
-            </li>
-            <li
-              className={`menu-item menu-item-has-children-mobile ${
-                isMenuParentActive(blogLinks) ? "current-menu-mobile-item" : ""
-              }`}
-            >
-              <a
-                href="#dropdown-menu-6"
-                data-bs-toggle="collapse"
-                className="collapsed"
-              >
-                Blog
-              </a>
-              <div
-                id="dropdown-menu-6"
-                className="collapse"
-                data-bs-parent="#menu-mobile"
-              >
-                <ul className="sub-menu-mobile">
-                  {blogLinks.map((link, i) => (
-                    <li
-                      key={i}
-                      className={`menu-item ${
-                        isMenuActive(link) ? "current-menu-mobile-item" : ""
-                      }`}
-                    >
-                      <Link href={link.href}>{link.title}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
             </li>
           </ul>
           <div className="contact-mobile">

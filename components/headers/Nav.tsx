@@ -2,7 +2,6 @@
 import Link from "next/link";
 import React from "react";
 import {
-  blogLinks,
   recoveryServiceLinks,
 } from "@/data/menu";
 import { usePathname } from "next/navigation";
@@ -71,29 +70,6 @@ export default function Nav() {
         <Link href="/contact-us" className="item-link">
           Contact
         </Link>
-      </li>
-      <li
-        className={`menu-item menu-item-has-children position-relative ${
-          isMenuParentActive(blogLinks) ? "current-menu-item" : ""
-        }`}
-      >
-        <a href="#" className="item-link">
-          Blog
-        </a>
-        <ul className="sub-menu">
-          {blogLinks.map((item, index) => (
-            <li
-              key={index}
-              className={`sub-menu-item ${
-                isMenuActive(item) ? "current-item" : ""
-              }`}
-            >
-              <Link href={item.href} className="item-link-2">
-                {item.title}
-              </Link>
-            </li>
-          ))}
-        </ul>
       </li>
     </>
   );
