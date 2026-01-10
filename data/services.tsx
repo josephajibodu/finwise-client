@@ -2,44 +2,30 @@ export const services = [
   {
     id: 1,
     iconClass: "icon-strategic-planning",
-    title: "Chargeback and Wire Recall Assistance",
+    title: "Forex Investment Scams",
     description:
-      "Need to reverse a scam payment? Cand Capital Limited assists with chargebacks and wire recalls, guiding you through evidence submission and direct bank engagement.",
+      "Recover funds lost to unregulated brokers, fake trading platforms, or Ponzi schemes.",
   },
   {
     id: 2,
     iconClass: "icon-operational-efficiency",
-    title: "Business Email Compromise (BEC) Fund Recovery",
+    title: "Cryptocurrency Investment Scams",
     description:
-      "Lost money to a business email scam? Cand Capital Limited helps trace fraudulent transfers and recover funds diverted through spoofed or hacked email communications.",
+      "Trace and recover stolen BTC, ETH, and other digital assets using advanced blockchain forensics.",
   },
   {
     id: 3,
     iconClass: "icon-market-research",
-    title: "Fake Brokerage and Trading App Recovery",
+    title: "Binary Options Scam",
     description:
-      "Scammed by a fake broker or trading app? Cand Capital Limited investigates the platform, tracks your funds, and helps recover your money through legal and financial actions.",
+      "Investigate and dispute unauthorized wire transfers through coordinated technical and banking action.",
   },
   {
     id: 4,
     iconClass: "icon-change-management",
-    title: "Phishing and Email Scam Recovery",
+    title: "Stock Trading Scams",
     description:
-      "Lost money to a phishing or email scam? Cand Capital Limited traces transactions, investigates fraudulent emails, and helps recover your stolen funds with expert support.",
-  },
-  {
-    id: 5,
-    iconClass: "icon-strategic-planning",
-    title: "Investment Scheme Recovery",
-    description:
-      "Cand Capital Limited helps victims recover funds lost in Ponzi schemes, fake trading platforms, and deceptive investment opportunities. Get forensic recovery support now.",
-  },
-  {
-    id: 6,
-    iconClass: "icon-operational-efficiency",
-    title: "Romance and Online Dating Scam Recovery",
-    description:
-      "Scammed by someone you met online? Cand Capital Limited recovers funds lost to romance scams and fake crypto investments. We trace payments, compile evidence, and take action.",
+      "Assist with disputing fraudulent credit/debit card transactions to reclaim lost funds.",
   },
 ];
 
