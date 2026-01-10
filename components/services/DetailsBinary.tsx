@@ -62,7 +62,7 @@ export default function DetailsBinary() {
                     <i className="icon-checkbox" />
                   </div>
                   <div className="title">
-                    Companies like <strong>Cand Capital Limited</strong> can help recover money for binary options fraud victims.
+                    Companies like <strong>ABC Capital Limited</strong> can help recover money for binary options fraud victims.
                   </div>
                 </div>
                 <div className="benefit-items">
@@ -116,7 +116,7 @@ export default function DetailsBinary() {
             <div className="detalis-content mb-60">
               <h3 className="title-content mb-20">Scammed and Lost Money in Binary Options? Here's What You Can Do Next!</h3>
               <p className="desc body-2 color-on-suface-variant-1 mb-32">
-                If you've found yourself to be the unfortunate victim of a binary options scam, it may seem like you have no recourse except to just take the loss and move on. Don't let bad actors get away with stealing your money! There are ways to go after individuals and entities that have taken your money. We at <strong>Cand Capital Limited</strong> are experienced in the recovery of funds from bad actors like binary options fraudsters. Some of the methods we utilize and have success with are chargebacks – working with you and your card company to make an authentic and valid report of fraud. <strong>Cand Capital Limited</strong> works closely with you, and you will work with the same caseworker throughout the process. Contact us today for a free consultation and get started!
+                If you've found yourself to be the unfortunate victim of a binary options scam, it may seem like you have no recourse except to just take the loss and move on. Don't let bad actors get away with stealing your money! There are ways to go after individuals and entities that have taken your money. We at <strong>ABC Capital Limited</strong> are experienced in the recovery of funds from bad actors like binary options fraudsters. Some of the methods we utilize and have success with are chargebacks – working with you and your card company to make an authentic and valid report of fraud. <strong>ABC Capital Limited</strong> works closely with you, and you will work with the same caseworker throughout the process. Contact us today for a free consultation and get started!
               </p>
             </div>
             <div className="detalis-content mb-60">
@@ -139,10 +139,10 @@ export default function DetailsBinary() {
             </div>
             <div className="detalis-content mb-60">
               <h3 className="title-content mb-20">
-                Act Now with Cand Capital Limited - Recover Your Funds
+                Act Now with ABC Capital Limited - Recover Your Funds
               </h3>
               <p className="desc body-2 color-on-suface-variant-1 mb-32">
-                If you've been scammed by a binary options broker and lost money through unauthorized wire transfers, <strong>Cand Capital Limited</strong> can help you investigate and dispute these transactions through coordinated technical and banking action. Contact us today for a free consultation and our professionals will work with you throughout the entire process to recover your lost funds!
+                If you've been scammed by a binary options broker and lost money through unauthorized wire transfers, <strong>ABC Capital Limited</strong> can help you investigate and dispute these transactions through coordinated technical and banking action. Contact us today for a free consultation and our professionals will work with you throughout the entire process to recover your lost funds!
               </p>
               <Link
                 href={`/contact-us`}
@@ -159,7 +159,7 @@ export default function DetailsBinary() {
               <div className="section-content position-relative">
                 <div className="heading-section mb-28">
                   <h4 className="title-section mb-12">
-                    <i className="icon-Briefcase" /> Cand Capital Limited
+                    <i className="icon-Briefcase" /> ABC Capital Limited
                   </h4>
                   <p className="text mb-20">Company number: 10699502</p>
                   <Link

@@ -5,9 +5,9 @@ import React from "react";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
-    "Stock Trading Scam Recovery - Cand Capital Limited",
+    "Stock Trading Scam Recovery - ABC Capital Limited",
   description:
-    "Expert stock trading scam recovery services. Cand Capital Limited helps victims dispute fraudulent credit/debit card transactions to reclaim lost funds.",
+    "Expert stock trading scam recovery services. ABC Capital Limited helps victims dispute fraudulent credit/debit card transactions to reclaim lost funds.",
 };
 export default function page() {
   return (

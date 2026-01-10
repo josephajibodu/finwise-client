@@ -113,7 +113,7 @@ export const servicesData = [
     imgHeight: 439,
     title: "Chargeback and Wire Recall Assistance",
     description:
-      "Need to reverse a scam payment? Cand Capital Limited assists with chargebacks and wire recalls, guiding you through evidence submission and direct bank engagement.",
+      "Need to reverse a scam payment? ABC Capital Limited assists with chargebacks and wire recalls, guiding you through evidence submission and direct bank engagement.",
     benefits: [
       "Expert evidence compilation for chargeback claims",
       "Direct bank engagement and negotiation",
@@ -130,7 +130,7 @@ export const servicesData = [
     imgHeight: 659,
     title: "Business Email Compromise (BEC) Fund Recovery",
     description:
-      "Lost money to a business email scam? Cand Capital Limited helps trace fraudulent transfers and recover funds diverted through spoofed or hacked email communications.",
+      "Lost money to a business email scam? ABC Capital Limited helps trace fraudulent transfers and recover funds diverted through spoofed or hacked email communications.",
     benefits: [
       "Email forensics and investigation",
       "Transfer tracing and fund location",
@@ -147,7 +147,7 @@ export const servicesData = [
     imgHeight: 659,
     title: "Fake Brokerage and Trading App Recovery",
     description:
-      "Scammed by a fake broker or trading app? Cand Capital Limited investigates the platform, tracks your funds, and helps recover your money through legal and financial actions.",
+      "Scammed by a fake broker or trading app? ABC Capital Limited investigates the platform, tracks your funds, and helps recover your money through legal and financial actions.",
     benefits: [
       "Platform investigation and verification",
       "Fund tracking and tracing",
@@ -164,7 +164,7 @@ export const servicesData = [
     imgHeight: 659,
     title: "Phishing and Email Scam Recovery",
     description:
-      "Lost money to a phishing or email scam? Cand Capital Limited traces transactions, investigates fraudulent emails, and helps recover your stolen funds with expert support.",
+      "Lost money to a phishing or email scam? ABC Capital Limited traces transactions, investigates fraudulent emails, and helps recover your stolen funds with expert support.",
     benefits: [
       "Email fraud investigation",
       "Transaction tracing",
@@ -181,7 +181,7 @@ export const servicesData = [
     imgHeight: 659,
     title: "Investment Scheme Recovery",
     description:
-      "Cand Capital Limited helps victims recover funds lost in Ponzi schemes, fake trading platforms, and deceptive investment opportunities. Get forensic recovery support now.",
+      "ABC Capital Limited helps victims recover funds lost in Ponzi schemes, fake trading platforms, and deceptive investment opportunities. Get forensic recovery support now.",
     benefits: [
       "Ponzi scheme investigation",
       "Forensic fund tracing",
@@ -198,7 +198,7 @@ export const servicesData = [
     imgHeight: 659,
     title: "Romance and Online Dating Scam Recovery",
     description:
-      "Scammed by someone you met online? Cand Capital Limited recovers funds lost to romance scams and fake crypto investments. We trace payments, compile evidence, and take action.",
+      "Scammed by someone you met online? ABC Capital Limited recovers funds lost to romance scams and fake crypto investments. We trace payments, compile evidence, and take action.",
     benefits: [
       "Romance scam investigation",
       "Payment tracing",

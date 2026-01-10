@@ -14,9 +14,9 @@ import Cta from "@/components/common/Cta";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
-    "Cand Capital Limited - Expert Fund Recovery & Financial Investigations",
+    "ABC Capital Limited - Expert Fund Recovery & Financial Investigations",
   description:
-    "Cand Capital Limited helps scam victims recover lost funds through legal, forensic, and digital solutions. Expert fund recovery services since 2017.",
+    "ABC Capital Limited helps scam victims recover lost funds through legal, forensic, and digital solutions. Expert fund recovery services since 2017.",
 };
 export default function Home() {
   return (

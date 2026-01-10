@@ -5,9 +5,9 @@ import React from "react";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
-    "Binary Options Scam Recovery - Cand Capital Limited",
+    "Binary Options Scam Recovery - ABC Capital Limited",
   description:
-    "Expert binary options scam recovery services. Cand Capital Limited helps victims investigate and dispute unauthorized wire transfers through coordinated technical and banking action.",
+    "Expert binary options scam recovery services. ABC Capital Limited helps victims investigate and dispute unauthorized wire transfers through coordinated technical and banking action.",
 };
 export default function page() {
   return (

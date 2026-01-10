@@ -62,8 +62,8 @@ export default function Contact() {
                 <div className="caption-1 title-section-contact">
                   Email
                 </div>
-                <a href="mailto:contact@candcapitalltd.com" className="caption-1 text">
-                  contact@candcapitalltd.com
+                <a href="mailto:contact@abccapitalltd.com" className="caption-1 text">
+                  contact@abccapitalltd.com
                 </a>
               </div>
             </div>

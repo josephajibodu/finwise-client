@@ -123,7 +123,7 @@ export default function DetailsCrypto() {
             <div className="detalis-content mb-60">
               <h3 className="title-content mb-20">Fall Prey to a Cryptocurrency Scam? How You Can Get Your Money Back</h3>
               <p className="desc body-2 color-on-suface-variant-1 mb-32">
-                If you've been the victim of cryptocurrency or bitcoin scams, don't be disheartened. Due to the vast number of scams and the number of people hurt over the past five years, regulators worldwide have set their sights on any hint of impropriety in the crypto space. And take comfort in knowing that many people have recovered Bitcoin and other cryptocurrencies – nothing is truly anonymous. A great first step is to utilize our fund recovery company: <strong>Cand Capital Limited</strong>, by filling out our contact request form. We will assign someone to your case who will work with you throughout this challenging process and try every possible method to get your money back.
+                If you've been the victim of cryptocurrency or bitcoin scams, don't be disheartened. Due to the vast number of scams and the number of people hurt over the past five years, regulators worldwide have set their sights on any hint of impropriety in the crypto space. And take comfort in knowing that many people have recovered Bitcoin and other cryptocurrencies – nothing is truly anonymous. A great first step is to utilize our fund recovery company: <strong>ABC Capital Limited</strong>, by filling out our contact request form. We will assign someone to your case who will work with you throughout this challenging process and try every possible method to get your money back.
               </p>
             </div>
             <div className="detalis-content mb-60">
@@ -137,10 +137,10 @@ export default function DetailsCrypto() {
             </div>
             <div className="detalis-content mb-60">
               <h3 className="title-content mb-20">
-                Act Now with Cand Capital Limited - Recover Your Cryptocurrency
+                Act Now with ABC Capital Limited - Recover Your Cryptocurrency
               </h3>
               <p className="desc body-2 color-on-suface-variant-1 mb-32">
-                If you've been scammed and lost BTC, ETH, or other digital assets, <strong>Cand Capital Limited</strong> can help you trace and recover stolen cryptocurrency using advanced blockchain forensics. Contact us today for a free consultation and our professionals will work with you throughout the entire process to recover your lost funds!
+                If you've been scammed and lost BTC, ETH, or other digital assets, <strong>ABC Capital Limited</strong> can help you trace and recover stolen cryptocurrency using advanced blockchain forensics. Contact us today for a free consultation and our professionals will work with you throughout the entire process to recover your lost funds!
               </p>
               <Link
                 href={`/contact-us`}
@@ -157,7 +157,7 @@ export default function DetailsCrypto() {
               <div className="section-content position-relative">
                 <div className="heading-section mb-28">
                   <h4 className="title-section mb-12">
-                    <i className="icon-Briefcase" /> Cand Capital Limited
+                    <i className="icon-Briefcase" /> ABC Capital Limited
                   </h4>
                   <p className="text mb-20">Company number: 10699502</p>
                   <Link

@@ -4,10 +4,9 @@ import DetailsForex from "@/components/services/DetailsForex";
 import React from "react";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title:
-    "Forex Investment Scam Recovery - Cand Capital Limited",
+  title: "Forex Investment Scam Recovery - ABC Capital Limited",
   description:
-    "Expert forex scam recovery services. Cand Capital Limited helps victims of unregulated brokers, fake trading platforms, and Ponzi schemes recover their lost funds.",
+    "Expert forex scam recovery services. ABC Capital Limited helps victims of unregulated brokers, fake trading platforms, and Ponzi schemes recover their lost funds.",
 };
 export default function page() {
   return (
@@ -62,4 +61,3 @@ export default function page() {
     </>
   );
 }
-
