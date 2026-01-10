@@ -66,14 +66,10 @@ export const homeItems = [
 ];
 
 export const recoveryServiceLinks = [
-  { title: "BEC Scam Recovery", href: "/services-details-1" },
-  { title: "Chargeback Recovery", href: "/services-details-1" },
-  { title: "Cryptocurrency Recovery", href: "/services-details-1" },
-  { title: "Fake Brokerage Scam", href: "/services-details-1" },
-  { title: "Forex and Binary Scam", href: "/services-details-1" },
-  { title: "Investment Scam Recovery", href: "/services-details-1" },
-  { title: "Phishing and Email Scam", href: "/services-details-1" },
-  { title: "Romance Scam Recovery", href: "/services-details-1" },
+  { title: "Forex Investment Scam", href: "/services-details-1" },
+  { title: "Crypto Scam Recovery", href: "/services-details-1" },
+  { title: "Binary Options Scam", href: "/services-details-1" },
+  { title: "Stock Trading Scam", href: "/services-details-1" },
 ];
 export const caseStudyLinks = [
   { title: "Case Studies 1", href: "/case-studies-1" },
