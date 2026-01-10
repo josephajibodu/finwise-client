@@ -2,7 +2,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import React, { useEffect } from "react";
-import NewsLetterForm from "../common/NewsLetterForm";
 import { recoveryServiceLinks } from "@/data/menu";
 
 export default function Footer1({ parentClass = "footer" }) {
@@ -60,32 +59,6 @@ export default function Footer1({ parentClass = "footer" }) {
                   Cand Capital Limited is a global fund recovery firm dedicated
                   to helping scam victims recover their lost assets.
                 </div>
-                <div className="contact-footer">
-                  <div className="contact-footer-content">
-                    <p className="caption-1">
-                      <i
-                        className="icon-PhoneCall"
-                        style={{ marginRight: "8px" }}
-                      />
-                      ++44 121 468 3548
-                    </p>
-                  </div>
-                  <div className="contact-footer-content">
-                    <p className="caption-1">
-                      <i className="icon-Mail" style={{ marginRight: "8px" }} />
-                      contact@candcapitalltd.com
-                    </p>
-                  </div>
-                  <div className="contact-footer-content">
-                    <p className="caption-1">
-                      <i
-                        className="icon-Globe"
-                        style={{ marginRight: "8px" }}
-                      />
-                      www.candcapitalltd.com
-                    </p>
-                  </div>
-                </div>
               </div>
               <div className="footer-center">
                 <div className="footer-content our-services footer-col-block">
@@ -139,19 +112,39 @@ export default function Footer1({ parentClass = "footer" }) {
                 </div>
               </div>
               <div className="footer-right">
-                <div className="footer-subscribe">
-                  <div className="label text-btn-uppercase">
-                    Have you been Scammed?
+                <div className="footer-content our-services footer-col-block">
+                  <div className="title-mobile label text-btn-uppercase">
+                    Contact Us
+                    <i className="icon-arrow-51" />
                   </div>
-                  <div
-                    className="text caption-1"
-                    style={{ marginBottom: "16px" }}
-                  >
-                    Submit your email below and one of our recovery experts will
-                    reach out to you as soon as possible for a confidential case
-                    review.
+                  <div className="tf-collapse-content">
+                    <div className="contact-footer">
+                      <div className="contact-footer-content">
+                        <p className="caption-1">
+                          <i
+                            className="icon-PhoneCall"
+                            style={{ marginRight: "8px" }}
+                          />
+                          ++44 121 468 3548
+                        </p>
+                      </div>
+                      <div className="contact-footer-content">
+                        <p className="caption-1">
+                          <i className="icon-Mail" style={{ marginRight: "8px" }} />
+                          contact@candcapitalltd.com
+                        </p>
+                      </div>
+                      <div className="contact-footer-content">
+                        <p className="caption-1">
+                          <i
+                            className="icon-Globe"
+                            style={{ marginRight: "8px" }}
+                          />
+                          www.candcapitalltd.com
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <NewsLetterForm />
                 </div>
               </div>
             </div>

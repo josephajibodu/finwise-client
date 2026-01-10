@@ -66,10 +66,10 @@ export const homeItems = [
 ];
 
 export const recoveryServiceLinks = [
-  { title: "Forex Investment Scam", href: "/services-details-1" },
-  { title: "Crypto Scam Recovery", href: "/services-details-1" },
-  { title: "Binary Options Scam", href: "/services-details-1" },
-  { title: "Stock Trading Scam", href: "/services-details-1" },
+  { title: "Forex Investment Scam", href: "/forex-investment-scam" },
+  { title: "Crypto Scam Recovery", href: "/crypto-scam-recovery" },
+  { title: "Binary Options Scam", href: "/binary-options-scam" },
+  { title: "Stock Trading Scam", href: "/stock-trading-scam" },
 ];
 export const caseStudyLinks = [
   { title: "Case Studies 1", href: "/case-studies-1" },
