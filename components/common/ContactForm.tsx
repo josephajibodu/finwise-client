@@ -72,10 +72,10 @@ export default function ContactForm({
       <fieldset>
         <input required type="email" name="email" placeholder="Email address" />
       </fieldset>
-
+      {/* 
       <DropdownSelect
         options={["How can we help you?", "Option 1", "Option 2", "Option 3"]}
-      />
+      /> */}
       <fieldset>
         <textarea required placeholder="Your mesages" defaultValue={""} />
       </fieldset>
