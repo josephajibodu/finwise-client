@@ -1,4 +1,3 @@
-import RtlToggler from "@/components/common/RtlToggler";
 import "../public/scss/main.scss";
 import "rc-slider/assets/index.css";
 
@@ -9,7 +8,6 @@ import Quickview from "@/components/modals/Quickview";
 import Search from "@/components/modals/Search";
 import SideOffcanvas from "@/components/modals/SideOffcanvas";
 import Context from "@/context/Context";
-import LoginModal from "@/components/modals/LoginModal";
 import TeamModal from "@/components/modals/TeamModal";
 import { rtlInitScript } from "@/lib/rtl-init";
 
@@ -32,11 +30,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body className={`counter-scroll popup-loader`}>
         <div className="wrapper">
           <Context>
-            <RtlToggler />
             {children}
             <MobileMenu />
             <Quickview />
-            <LoginModal />
             <Search />
             <TeamModal />
             <SideOffcanvas />
