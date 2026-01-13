@@ -13,7 +13,10 @@ import { rtlInitScript } from "@/lib/rtl-init";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "FinWice - Business & Finance Consulting - React Nextjs Template",
+  title: "Folco Capital - Expert Fund Recovery & Financial Investigations",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 import { ReactNode } from "react";
 
@@ -21,6 +24,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="icon" href="/favicon.ico" />
         <script dangerouslySetInnerHTML={{ __html: rtlInitScript }} />
         <link
           href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Geologica:wght@100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Kumbh+Sans:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oxygen:wght@300;400;700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=SUSE:wght@100..800&display=swap"
