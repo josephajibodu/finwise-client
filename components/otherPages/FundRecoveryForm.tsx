@@ -6,6 +6,7 @@ import axios from "axios";
 export default function FundRecoveryForm() {
   const [success, setSuccess] = useState(true);
   const [showMessage, setShowMessage] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleShowMessage = () => {
     setShowMessage(true);
@@ -16,24 +17,43 @@ export default function FundRecoveryForm() {
 
   interface SendEmailEvent extends React.FormEvent<HTMLFormElement> {
     target: HTMLFormElement & {
+      name?: { value: string };
       email: { value: string };
+      message?: { value: string };
       reset: () => void;
     };
   }
 
   const sendEmail = async (e: SendEmailEvent): Promise<void> => {
     e.preventDefault();
-    const email: string = e.target.email.value;
+
+    if (loading) return; // Prevent double submission
+
+    setLoading(true);
+    // Get dropdown values from DOM
+    const form = e.target;
+    const scamTypeDropdown = form.querySelector(".nice-select") as HTMLElement;
+    const amountLostDropdown = form.querySelectorAll(
+      ".nice-select"
+    )[1] as HTMLElement;
+
+    const scamType =
+      scamTypeDropdown?.querySelector(".current")?.textContent || "";
+    const amountLost =
+      amountLostDropdown?.querySelector(".current")?.textContent || "";
+
+    const formData = {
+      name: e.target.name?.value || "",
+      email: e.target.email.value,
+      scamType: scamType !== "Select Scam Type" ? scamType : "",
+      amountLost: amountLost !== "Select Amount Lost" ? amountLost : "",
+      message: e.target.message?.value || "",
+    };
 
     try {
-      const response = await axios.post(
-        "https://express-brevomail.vercel.app/api/contacts",
-        {
-          email,
-        }
-      );
+      const response = await axios.post("/api/fund-recovery", formData);
 
-      if ([200, 201].includes(response.status)) {
+      if (response.status === 200) {
         e.target.reset();
         setSuccess(true);
         handleShowMessage();
@@ -45,6 +65,8 @@ export default function FundRecoveryForm() {
       setSuccess(false);
       handleShowMessage();
       e.target.reset();
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -77,9 +99,9 @@ export default function FundRecoveryForm() {
                   Fund Recovery Consultation
                 </h3>
                 <div className="sub-title body-2 color-on-suface-container wow fadeInUp">
-                  Fill out the form below to begin your confidential case review.
-                  Our experts will assess your situation and guide you through
-                  the recovery process.
+                  Fill out the form below to begin your confidential case
+                  review. Our experts will assess your situation and guide you
+                  through the recovery process.
                 </div>
               </div>
 
@@ -157,8 +179,22 @@ export default function FundRecoveryForm() {
                   <button
                     type="submit"
                     className="tf-btn style-1 bg-on-suface-container w-full text-center"
+                    disabled={loading}
                   >
-                    <span>Submit</span>
+                    <span>
+                      {loading ? (
+                        <>
+                          <span
+                            className="spinner-border spinner-border-sm me-2"
+                            role="status"
+                            aria-hidden="true"
+                          ></span>
+                          Submitting...
+                        </>
+                      ) : (
+                        "Submit"
+                      )}
+                    </span>
                   </button>
                 </div>
               </form>
@@ -169,4 +205,3 @@ export default function FundRecoveryForm() {
     </section>
   );
 }
-

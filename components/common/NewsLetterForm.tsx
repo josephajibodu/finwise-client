@@ -8,6 +8,7 @@ export default function NewsLetterForm({
 }) {
   const [success, setSuccess] = useState(true);
   const [showMessage, setShowMessage] = useState(false);
+  const [loading, setLoading] = useState(false);
   const handleShowMessage = () => {
     setShowMessage(true);
     setTimeout(() => {
@@ -27,17 +28,18 @@ export default function NewsLetterForm({
 
   const sendEmail = async (e: SendEmailEvent): Promise<void> => {
     e.preventDefault(); // Prevent default form submission behavior
+    
+    if (loading) return; // Prevent double submission
+
+    setLoading(true);
     const email = e.target.email.value;
 
     try {
-      const response = await axios.post(
-        "https://express-brevomail.vercel.app/api/contacts",
-        {
-          email,
-        }
-      );
+      const response = await axios.post('/api/newsletter', {
+        email,
+      });
 
-      if ([200, 201].includes(response.status)) {
+      if (response.status === 200) {
         e.target.reset(); // Reset the form
         setSuccess(true); // Set success state
         handleShowMessage();
@@ -49,14 +51,29 @@ export default function NewsLetterForm({
       setSuccess(false); // Set error state
       handleShowMessage();
       e.target.reset(); // Reset the form
+    } finally {
+      setLoading(false);
     }
   };
   return (
     <form onSubmit={sendEmail}>
       <fieldset>
         <input name="email" type="email" placeholder={placeholder} required />
-        <button type="submit" className="tf-btn style-1 bg-on-suface-container" style={{ marginTop: "12px", width: "100%" }}>
-          <span>SUBMIT NOW</span>
+        <button type="submit" className="tf-btn style-1 bg-on-suface-container" style={{ marginTop: "12px", width: "100%" }} disabled={loading}>
+          <span>
+            {loading ? (
+              <>
+                <span
+                  className="spinner-border spinner-border-sm me-2"
+                  role="status"
+                  aria-hidden="true"
+                ></span>
+                Submitting...
+              </>
+            ) : (
+              "SUBMIT NOW"
+            )}
+          </span>
         </button>
       </fieldset>
       <div

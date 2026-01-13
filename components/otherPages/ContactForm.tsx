@@ -8,6 +8,7 @@ import DropdownSelect from "../common/DropdownSelect";
 export default function ContactForm() {
   const [success, setSuccess] = useState(true);
   const [showMessage, setShowMessage] = useState(false);
+  const [loading, setLoading] = useState(false);
   const handleShowMessage = () => {
     setShowMessage(true);
     setTimeout(() => {
@@ -29,17 +30,21 @@ export default function ContactForm() {
 
   const sendEmail = async (e: SendEmailEvent): Promise<void> => {
     e.preventDefault(); // Prevent default form submission behavior
-    const email = e.currentTarget.email.value;
+    
+    if (loading) return; // Prevent double submission
+
+    setLoading(true);
+    const formData = {
+      name: e.currentTarget.elements.name.value,
+      email: e.currentTarget.elements.email.value,
+      phone: e.currentTarget.elements.phone.value || '',
+      message: e.currentTarget.elements.message.value,
+    };
 
     try {
-      const response = await axios.post(
-        "https://express-brevomail.vercel.app/api/contacts",
-        {
-          email,
-        }
-      );
+      const response = await axios.post('/api/contact', formData);
 
-      if ([200, 201].includes(response.status)) {
+      if (response.status === 200) {
         e.currentTarget.reset(); // Reset the form
         setSuccess(true); // Set success state
         handleShowMessage();
@@ -51,6 +56,8 @@ export default function ContactForm() {
       setSuccess(false); // Set error state
       handleShowMessage();
       e.currentTarget.reset(); // Reset the form
+    } finally {
+      setLoading(false);
     }
   };
   return (
@@ -115,8 +122,22 @@ export default function ContactForm() {
       <button
         type="submit"
         className="tf-btn style-1 w-full bg-on-suface-container text-center"
+        disabled={loading}
       >
-        <span>Submit Require</span>
+        <span>
+          {loading ? (
+            <>
+              <span
+                className="spinner-border spinner-border-sm me-2"
+                role="status"
+                aria-hidden="true"
+              ></span>
+              Submitting...
+            </>
+          ) : (
+            "Submit Request"
+          )}
+        </span>
       </button>
     </form>
   );
