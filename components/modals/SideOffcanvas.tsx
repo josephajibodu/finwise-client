@@ -38,7 +38,7 @@ export default function SideOffcanvas() {
           <li>
             <p>
               Email:
-              <a href="mailto:example@gmail.com"> example@gmail.com </a>
+              <a href="mailto:contact@folcocapitals.com"> contact@folcocapitals.com </a>
             </p>
           </li>
           <li>

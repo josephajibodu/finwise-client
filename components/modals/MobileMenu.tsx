@@ -122,7 +122,7 @@ export default function MobileMenu() {
             </div>
             <div className="content-contact-moblile">
               <a href="#">
-                <i className="icon-Envelope" /> example@gmail.com
+                <i className="icon-Envelope" /> contact@folcocapitals.com
               </a>
             </div>
             <div className="content-contact-moblile">

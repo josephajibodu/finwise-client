@@ -199,7 +199,7 @@ export default function Footer2({
                           <span>1-555-678-8888</span>
                         </li>
                         <li className="support-item-footer caption-1">
-                          <span>example@gmail.com</span>
+                          <span>contact@folcocapitals.com</span>
                         </li>
                       </ul>
                     </div>

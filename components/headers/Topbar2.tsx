@@ -10,14 +10,14 @@ export default function Topbar2() {
               <div className="tf-tb-left">
                 <div className="top-bar-content">
                   <i className="icon-MapPin" />
-                  <p className="caption-1">
+                  <p className="caption-1 hidden">
                     55 East 10th Street, New York, NY 10003, United States
                   </p>
                 </div>
                 <div className="top-bar-content">
                   <i className="icon-Envelope" />
                   <a href="#" className="caption-1 color-white">
-                    example@gmail.com
+                    contact@folcocapitals.com
                   </a>
                 </div>
               </div>

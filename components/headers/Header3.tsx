@@ -59,7 +59,7 @@ export default function Header3({
                   <div className="top-bar-content">
                     <i className="icon-Envelope" />
                     <a href="#" className="caption-1 color-white">
-                      example@gmail.com
+                      contact@folcocapitals.com
                     </a>
                   </div>
                   <div

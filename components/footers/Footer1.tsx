@@ -131,7 +131,7 @@ export default function Footer1({ parentClass = "footer" }) {
                       <div className="contact-footer-content">
                         <p className="caption-1">
                           <i className="icon-Mail" style={{ marginRight: "8px" }} />
-                          example@gmail.com
+                          contact@folcocapitals.com
                         </p>
                       </div>
                       <div className="contact-footer-content">
