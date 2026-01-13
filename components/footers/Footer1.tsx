@@ -125,13 +125,13 @@ export default function Footer1({ parentClass = "footer" }) {
                             className="icon-PhoneCall"
                             style={{ marginRight: "8px" }}
                           />
-                          ++44 121 468 3548
+                          +000 (123) 456 88
                         </p>
                       </div>
                       <div className="contact-footer-content">
                         <p className="caption-1">
                           <i className="icon-Mail" style={{ marginRight: "8px" }} />
-                          contact@folcocapitals.com
+                          example@gmail.com
                         </p>
                       </div>
                       <div className="contact-footer-content">

@@ -117,12 +117,12 @@ export default function MobileMenu() {
             <h6 className="title-contact-mobile">Contact Info</h6>
             <div className="content-contact-moblile">
               <a href="#">
-                <i className="icon-PhoneCall" /> ++44 121 468 3548
+                <i className="icon-PhoneCall" /> +000 (123) 456 88
               </a>
             </div>
             <div className="content-contact-moblile">
               <a href="#">
-                <i className="icon-Envelope" /> contact@folcocapitals.com
+                <i className="icon-Envelope" /> example@gmail.com
               </a>
             </div>
             <div className="content-contact-moblile">

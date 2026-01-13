@@ -12,7 +12,7 @@ export default function Topbar1() {
                 <div className="top-bar-content">
                   <i className="icon-MapPin" />
                   <p className="caption-1">
-                    101 E 129th St, East Chicago, IN 46312, US
+                    55 East 10th Street, New York, NY 10003, United States
                   </p>
                 </div>
                 <div className="top-bar-content">
@@ -28,7 +28,7 @@ export default function Topbar1() {
                   <div className="icon">
                     <i className="icon-PhoneCall" />
                   </div>
-                  <p className="text-btn">1-555-678-8888</p>
+                  <p className="text-btn">+000 (123) 456 88</p>
                 </div>
                 <div className="tf-tb-social">
                   <ul className="tf-social">

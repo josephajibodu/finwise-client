@@ -95,8 +95,7 @@ export default function Contact() {
                         className="caption-1 text wow fadeInUp"
                         data-wow-delay=".1s"
                       >
-                        101 E 129th St, East <br />
-                        Chicago, IN 46312, US
+                        55 East 10th Street, New York, NY 10003, United States
                       </a>
                       <a
                         href="#"
@@ -123,13 +122,7 @@ export default function Contact() {
                           className="caption-1 text wow fadeInUp"
                           data-wow-delay=".3s"
                         >
-                          1-555-678-8888
-                        </p>
-                        <p
-                          className="caption-1 text wow fadeInUp"
-                          data-wow-delay=".3s"
-                        >
-                          1-333-123-6666
+                          +000 (123) 456 88
                         </p>
                       </a>
                     </div>

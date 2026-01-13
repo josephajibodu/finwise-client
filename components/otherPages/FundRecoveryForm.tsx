@@ -48,26 +48,12 @@ export default function FundRecoveryForm() {
     }
   };
 
-  const countries = [
-    "Select Country",
-    "United States",
-    "United Kingdom",
-    "Canada",
-    "Australia",
-    "Germany",
-    "France",
-    "Other",
-  ];
-
   const scamTypes = [
     "Select Scam Type",
-    "BEC Scam",
-    "Chargeback Scam",
-    "Cryptocurrency Scam",
-    "Fake Brokerage Scam",
-    "Forex and Binary Scam",
-    "Investment Scam",
-    "Phishing and Email Scam",
+    "Forex Investment Scam",
+    "Crypto Scam Recovery",
+    "Binary Options Scam",
+    "Stock Trading Scam",
   ];
 
   const amountLost = [
@@ -119,24 +105,6 @@ export default function FundRecoveryForm() {
                         type="email"
                         name="email"
                         placeholder="Your Email (*)"
-                      />
-                    </fieldset>
-                  </div>
-                  <div className="col-md-6">
-                    <fieldset>
-                      <input
-                        type="tel"
-                        placeholder="Phone Number"
-                        name="phone"
-                      />
-                    </fieldset>
-                  </div>
-                  <div className="col-md-6">
-                    <fieldset>
-                      <DropdownSelect
-                        options={countries}
-                        defaultOption="Select Country"
-                        addtionalParentClass="w-full"
                       />
                     </fieldset>
                   </div>

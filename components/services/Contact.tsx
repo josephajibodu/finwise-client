@@ -35,8 +35,8 @@ export default function Contact() {
                 <div className="caption-1 title-section-contact">
                   Phone
                 </div>
-                <a href="tel:+441214683548" className="caption-1 text">
-                  +44 121 468 3548
+                <a href="tel:+00012345688" className="caption-1 text">
+                  +000 (123) 456 88
                 </a>
               </div>
             </div>
@@ -49,8 +49,7 @@ export default function Contact() {
                   Address
                 </div>
                 <a href="#" className="caption-1 text">
-                  27a Barker Road, B74 2NY<br />
-                  Sutton Coldfield, United Kingdom
+                  55 East 10th Street, New York, NY 10003, United States
                 </a>
               </div>
             </div>
@@ -62,8 +61,8 @@ export default function Contact() {
                 <div className="caption-1 title-section-contact">
                   Email
                 </div>
-                <a href="mailto:contact@folcocapitals.com" className="caption-1 text">
-                  contact@folcocapitals.com
+                <a href="mailto:example@gmail.com" className="caption-1 text">
+                  example@gmail.com
                 </a>
               </div>
             </div>
