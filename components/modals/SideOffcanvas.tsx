@@ -17,11 +17,11 @@ export default function SideOffcanvas() {
         />
       </div>
       <div className="meag-menu-item">
-        <h4 className="title-content fw-7">Finwice Construction</h4>
+        <h4 className="title-content fw-7">Folco Capital</h4>
         <p>
-          Nam augue velit, fermentum sed erat non, efficitur interdum lectus.
-          Donec hendrerit lorem a dui euismod tempus. Vivamus auctor blandit
-          tellus et interdum.
+          Folco Capital is a global fund recovery firm dedicated to helping scam
+          victims recover their lost assets through legal, forensic, and digital
+          solutions.
         </p>
       </div>
       <div className="contact-mega-menu meag-menu-item">
