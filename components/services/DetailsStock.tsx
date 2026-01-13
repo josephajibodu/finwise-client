@@ -96,15 +96,15 @@ export default function DetailsStock() {
             <div className="detalis-content mb-60">
               <h3 className="title-content mb-20">Can You Get Your Money Back After a Stock Scam?</h3>
               <p className="desc body-2 color-on-suface-variant-1 mb-32">
-                If you have lost money due to a scam or fraud in the stock market, you have options. With the stock market so regulated and scrutinized, thankfully, there are ways for you to recover money. But the process is exhaustive and prohibitively challenging that many become frustrated and decide not to pursue monetary recovery. At <strong>ABC Capital Limited</strong>, we specialize in the recovery of funds due to fraudulent activity and stock market scams. We have experience in working with regulators and litigating against bad actors in the stock market space. Our representatives create an exhaustive and detailed analysis of what happened to you to determine the best way to get your money back. Then we assign a caseworker that focuses on your case throughout the process. We have a myriad of positive reviews and an extremely high positive expectancy rate in the field.
+                If you have lost money due to a scam or fraud in the stock market, you have options. With the stock market so regulated and scrutinized, thankfully, there are ways for you to recover money. But the process is exhaustive and prohibitively challenging that many become frustrated and decide not to pursue monetary recovery. At <strong>Folco Capital</strong>, we specialize in the recovery of funds due to fraudulent activity and stock market scams. We have experience in working with regulators and litigating against bad actors in the stock market space. Our representatives create an exhaustive and detailed analysis of what happened to you to determine the best way to get your money back. Then we assign a caseworker that focuses on your case throughout the process. We have a myriad of positive reviews and an extremely high positive expectancy rate in the field.
               </p>
             </div>
             <div className="detalis-content mb-60">
               <h3 className="title-content mb-20">
-                Act Now with ABC Capital Limited - Recover Your Funds
+                Act Now with Folco Capital - Recover Your Funds
               </h3>
               <p className="desc body-2 color-on-suface-variant-1 mb-32">
-                If you've been scammed by fraudulent stock trading activities and lost money through fraudulent credit/debit card transactions, <strong>ABC Capital Limited</strong> can help you dispute these transactions to reclaim your lost funds. Contact us today for a free consultation and our professionals will work with you throughout the entire process to get your money back!
+                If you've been scammed by fraudulent stock trading activities and lost money through fraudulent credit/debit card transactions, <strong>Folco Capital</strong> can help you dispute these transactions to reclaim your lost funds. Contact us today for a free consultation and our professionals will work with you throughout the entire process to get your money back!
               </p>
               <Link
                 href={`/contact-us`}
@@ -121,7 +121,7 @@ export default function DetailsStock() {
               <div className="section-content position-relative">
                 <div className="heading-section mb-28">
                   <h4 className="title-section mb-12">
-                    <i className="icon-Briefcase" /> ABC Capital Limited
+                    <i className="icon-Briefcase" /> Folco Capital
                   </h4>
                   <p className="text mb-20">Company number: 10699502</p>
                   <Link

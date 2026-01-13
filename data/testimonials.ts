@@ -2,7 +2,7 @@ export const testimonials = [
   {
     percentage: 100,
     label: "Funds Recovered",
-    text: "A romance scam on Telegram cost me my savings. ABC Capital Limited treated my case with sensitivity and professionalism. They didn't just help recover my funds, they helped me rebuild confidence. I paid a one-time contractual fee, and within two weeks, I received a wire transfer with the recovered amount. Truly life-changing.",
+    text: "A romance scam on Telegram cost me my savings. Folco Capital treated my case with sensitivity and professionalism. They didn't just help recover my funds, they helped me rebuild confidence. I paid a one-time contractual fee, and within two weeks, I received a wire transfer with the recovered amount. Truly life-changing.",
     imgSrc: "/image/avatar/avt-4.jpg",
     name: "Renee Caldwell",
     position: "Digital Marketer - Vancouver, Canada",
@@ -10,7 +10,7 @@ export const testimonials = [
   {
     percentage: 100,
     label: "Funds Recovered",
-    text: "I lost over $40,000 to a fraudulent crypto trading platform that vanished overnight. I was skeptical about recovery services until I found ABC Capital Limited. Their team was professional, transparent, and fast. Within 10 days, I had most of my funds back. They even helped me report the platform to authorities. I'm incredibly grateful.",
+    text: "I lost over $40,000 to a fraudulent crypto trading platform that vanished overnight. I was skeptical about recovery services until I found Folco Capital. Their team was professional, transparent, and fast. Within 10 days, I had most of my funds back. They even helped me report the platform to authorities. I'm incredibly grateful.",
     imgSrc: "/image/avatar/avt-5.jpg",
     name: "Laura Hensley",
     position: "Financial Analyst - Toronto, Canada",
@@ -18,7 +18,7 @@ export const testimonials = [
   {
     percentage: 100,
     label: "Funds Recovered",
-    text: "After being scammed by a fake broker, I thought my money was gone forever. ABC Capital Limited proved me wrong. Their forensic team traced my funds, and their legal team recovered everything. The process was transparent, and they kept me informed every step of the way. Highly recommend their services.",
+    text: "After being scammed by a fake broker, I thought my money was gone forever. Folco Capital proved me wrong. Their forensic team traced my funds, and their legal team recovered everything. The process was transparent, and they kept me informed every step of the way. Highly recommend their services.",
     imgSrc: "/image/avatar/avt-6.jpg",
     name: "Michael Chen",
     position: "Business Owner - London, UK",
@@ -29,7 +29,7 @@ export const testimonials2 = [
   {
     percentage: 100,
     label: "Funds Recovered",
-    text: "I lost $35,000 to an unregulated Forex broker that promised guaranteed returns. The platform suddenly shut down and disappeared with my funds. ABC Capital Limited used advanced blockchain forensics to trace my transactions and recover my money. Their expertise in forex scam recovery is unmatched. Within two weeks, I received my funds back.",
+    text: "I lost $35,000 to an unregulated Forex broker that promised guaranteed returns. The platform suddenly shut down and disappeared with my funds. Folco Capital used advanced blockchain forensics to trace my transactions and recover my money. Their expertise in forex scam recovery is unmatched. Within two weeks, I received my funds back.",
     imgSrc: "/image/avatar/avt-4.jpg",
     name: "James Mitchell",
     position: "Investment Advisor - New York, USA",
@@ -37,7 +37,7 @@ export const testimonials2 = [
   {
     percentage: 100,
     label: "Funds Recovered",
-    text: "I was scammed out of $50,000 in Bitcoin and Ethereum by a fraudulent cryptocurrency investment scheme. I thought my digital assets were lost forever until ABC Capital Limited stepped in. Their blockchain forensics team tracked down the stolen crypto across multiple wallets. They recovered my BTC and ETH and helped secure my funds. Outstanding service!",
+    text: "I was scammed out of $50,000 in Bitcoin and Ethereum by a fraudulent cryptocurrency investment scheme. I thought my digital assets were lost forever until Folco Capital stepped in. Their blockchain forensics team tracked down the stolen crypto across multiple wallets. They recovered my BTC and ETH and helped secure my funds. Outstanding service!",
     imgSrc: "/image/avatar/avt-5.jpg",
     name: "Sarah Thompson",
     position: "Software Engineer - San Francisco, USA",
@@ -45,7 +45,7 @@ export const testimonials2 = [
   {
     percentage: 100,
     label: "Funds Recovered",
-    text: "A binary options scam drained $28,000 from my account through unauthorized wire transfers. ABC Capital Limited investigated the fraudulent transactions and coordinated with my bank to dispute and reverse the transfers. Their technical expertise and banking relationships made all the difference. I got my money back within 10 days. Highly professional team.",
+    text: "A binary options scam drained $28,000 from my account through unauthorized wire transfers. Folco Capital investigated the fraudulent transactions and coordinated with my bank to dispute and reverse the transfers. Their technical expertise and banking relationships made all the difference. I got my money back within 10 days. Highly professional team.",
     imgSrc: "/image/avatar/avt-6.jpg",
     name: "Robert Anderson",
     position: "Marketing Director - Chicago, USA",
@@ -53,7 +53,7 @@ export const testimonials2 = [
   {
     percentage: 100,
     label: "Funds Recovered",
-    text: "I fell victim to a stock trading scam where fraudulent charges were made to my credit card. The scammer charged me $22,000 for a fake trading platform subscription. ABC Capital Limited assisted me in disputing the fraudulent credit card transactions with my bank. They compiled all the evidence and successfully reclaimed my lost funds. Excellent support throughout the entire process.",
+    text: "I fell victim to a stock trading scam where fraudulent charges were made to my credit card. The scammer charged me $22,000 for a fake trading platform subscription. Folco Capital assisted me in disputing the fraudulent credit card transactions with my bank. They compiled all the evidence and successfully reclaimed my lost funds. Excellent support throughout the entire process.",
     imgSrc: "/image/avatar/avt-7.jpg",
     name: "Emily Rodriguez",
     position: "Business Consultant - Miami, USA",

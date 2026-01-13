@@ -108,7 +108,7 @@ export default function DetailsForex() {
                       there are options available to you,
                     </strong>{" "}
                     provided by our specialist at{" "}
-                    <strong>ABC Capital Limited</strong>.
+                    <strong>Folco Capital</strong>.
                   </div>
                 </div>
               </div>
@@ -451,7 +451,7 @@ export default function DetailsForex() {
                 scammers who defrauded you.
               </p>
               <p className="desc body-2 color-on-suface-variant-1 mb-32">
-                But we at <strong>ABC Capital Limited</strong> have a proven
+                But we at <strong>Folco Capital</strong> have a proven
                 track record of success in helping investors who have been the
                 victims of a scam or fraud. We are a regulated fund recovery
                 company that focuses on some of the more complicated financial
@@ -466,12 +466,12 @@ export default function DetailsForex() {
             </div>
             <div className="detalis-content mb-60">
               <h3 className="title-content mb-20">
-                Act Now with ABC Capital Limited - Get Your Funds Back
+                Act Now with Folco Capital - Get Your Funds Back
               </h3>
               <p className="desc body-2 color-on-suface-variant-1 mb-32">
                 If you've been scammed by an unregulated forex broker, fake
                 trading platform, or Ponzi scheme,{" "}
-                <strong>ABC Capital Limited</strong> can help you recover your
+                <strong>Folco Capital</strong> can help you recover your
                 lost funds. Contact us today for a free consultation and our
                 professionals will work with you throughout the entire process
                 to get you maximum returns!
@@ -491,7 +491,7 @@ export default function DetailsForex() {
               <div className="section-content position-relative">
                 <div className="heading-section mb-28">
                   <h4 className="title-section mb-12">
-                    <i className="icon-Briefcase" /> ABC Capital Limited
+                    <i className="icon-Briefcase" /> Folco Capital
                   </h4>
                   <p className="text mb-20">Company number: 10699502</p>
                   <Link

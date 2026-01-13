@@ -19,7 +19,7 @@ export default function About() {
                       <div className="heading-section">
                         <div className="text-anime-wave">
                           <a href="#" className="tag label text-btn-uppercase">
-                            About ABC Capital Limited
+                            About Folco Capital
                           </a>
                         </div>
                         <h3 className="title-section mb-28 text-anime-wave">
@@ -31,7 +31,7 @@ export default function About() {
                           </span>
                         </h3>
                         <div className="sub-title mb-32 text-anime-wave">
-                          Founded in 2017, ABC Capital Limited is a leading
+                          Founded in 2017, Folco Capital is a leading
                           fund recovery and financial investigation firm
                           committed to helping victims of online scams reclaim
                           what's rightfully theirs.

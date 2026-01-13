@@ -5,9 +5,9 @@ import React from "react";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
-    "Crypto Scam Recovery - ABC Capital Limited",
+    "Crypto Scam Recovery - Folco Capital",
   description:
-    "Expert cryptocurrency scam recovery services. ABC Capital Limited helps victims recover stolen BTC, ETH, and other digital assets using advanced blockchain forensics.",
+    "Expert cryptocurrency scam recovery services. Folco Capital helps victims recover stolen BTC, ETH, and other digital assets using advanced blockchain forensics.",
 };
 export default function page() {
   return (

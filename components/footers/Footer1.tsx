@@ -48,7 +48,7 @@ export default function Footer1({ parentClass = "footer" }) {
                 <div className="logo-footer">
                   <Link href={`/`} className="logo">
                     <Image
-                      alt="ABC CAPITAL LTD"
+                      alt="FOLCO CAPITAL"
                       src="/image/logo/logo-footer.svg"
                       width={169}
                       height={41}
@@ -56,7 +56,7 @@ export default function Footer1({ parentClass = "footer" }) {
                   </Link>
                 </div>
                 <div className="text caption-1">
-                  ABC Capital Limited is a global fund recovery firm dedicated
+                  Folco Capital is a global fund recovery firm dedicated
                   to helping scam victims recover their lost assets.
                 </div>
               </div>
@@ -131,7 +131,7 @@ export default function Footer1({ parentClass = "footer" }) {
                       <div className="contact-footer-content">
                         <p className="caption-1">
                           <i className="icon-Mail" style={{ marginRight: "8px" }} />
-                          contact@abccapitalltd.com
+                          contact@folcocapitals.com
                         </p>
                       </div>
                       <div className="contact-footer-content">
@@ -140,7 +140,7 @@ export default function Footer1({ parentClass = "footer" }) {
                             className="icon-Globe"
                             style={{ marginRight: "8px" }}
                           />
-                          www.abccapitalltd.com
+                          www.folcocapitals.com
                         </p>
                       </div>
                     </div>
@@ -161,7 +161,7 @@ export default function Footer1({ parentClass = "footer" }) {
                   style={{ width: "100%", textAlign: "center" }}
                 >
                   <div className="text caption-1">
-                    © 2025 ABC CAPITAL LTD. ALL RIGHTS RESERVED.
+                    © 2025 FOLCO CAPITAL. ALL RIGHTS RESERVED.
                   </div>
                 </div>
               </div>

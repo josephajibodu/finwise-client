@@ -13,10 +13,9 @@ import Blogs from "@/components/common/Blogs";
 import Cta from "@/components/common/Cta";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title:
-    "ABC Capital Limited - Expert Fund Recovery & Financial Investigations",
+  title: "Folco Capital - Expert Fund Recovery & Financial Investigations",
   description:
-    "ABC Capital Limited helps scam victims recover lost funds through legal, forensic, and digital solutions. Expert fund recovery services since 2017.",
+    "Folco Capital helps scam victims recover lost funds through legal, forensic, and digital solutions. Expert fund recovery services since 2017.",
 };
 export default function Home() {
   return (
