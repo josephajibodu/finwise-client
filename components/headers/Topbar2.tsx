@@ -11,7 +11,14 @@ export default function Topbar2() {
                 <div className="top-bar-content">
                   <i className="icon-MapPin" />
                   <p className="caption-1 hidden">
-                    55 East 10th Street, New York, NY 10003, United States
+                    138 Ch. Peasley, Magog, QC J1X 7W4, Canada
+                  </p>
+                </div>
+                <div className="top-bar-content">
+                  <i className="icon-MapPin" />
+                  <p className="caption-1 hidden">
+                    29th Floor One Canada Square Canary Wharf London E14 5DY
+                    United Kingdom
                   </p>
                 </div>
                 <div className="top-bar-content">
@@ -30,7 +37,7 @@ export default function Topbar2() {
                     <p>+000 (123) 456 88</p>
                   </div>
                 </div>
-                <div className="tf-tb-social">
+                <div className="tf-tb-social d-none">
                   <ul className="tf-social">
                     <li className="item">
                       <a href="#">

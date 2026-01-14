@@ -49,7 +49,20 @@ export default function Contact() {
                   Address
                 </div>
                 <a href="#" className="caption-1 text">
-                  55 East 10th Street, New York, NY 10003, United States
+                  138 Ch. Peasley, Magog, QC J1X 7W4, Canada
+                </a>
+              </div>
+            </div>
+            <div className="box-contact-item">
+              <div className="icon">
+                <i className="icon-MapPin" />
+              </div>
+              <div className="content">
+                <div className="caption-1 title-section-contact">
+                  Address
+                </div>
+                <a href="#" className="caption-1 text">
+                  29th Floor One Canada Square Canary Wharf London E14 5DY United Kingdom
                 </a>
               </div>
             </div>

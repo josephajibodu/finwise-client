@@ -270,8 +270,23 @@ export default function Details1() {
                         Address Business
                       </div>
                       <a href="#" className="caption-1 text">
-                        101 E 129th St, East <br />
-                        Chicago, IN 46312, US
+                        138 Ch. Peasley, Magog, QC J1X 7W4, Canada
+                      </a>
+                      <a href="#" className="label text-btn-uppercase">
+                        Get direction
+                      </a>
+                    </div>
+                  </div>
+                  <div className="box-contact-item">
+                    <div className="icon">
+                      <i className="icon-MapPin" />
+                    </div>
+                    <div className="content">
+                      <div className="caption-1 title-section-contact">
+                        Address Business
+                      </div>
+                      <a href="#" className="caption-1 text">
+                        29th Floor One Canada Square Canary Wharf London E14 5DY United Kingdom
                       </a>
                       <a href="#" className="label text-btn-uppercase">
                         Get direction

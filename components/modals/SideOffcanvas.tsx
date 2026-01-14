@@ -31,7 +31,15 @@ export default function SideOffcanvas() {
             <p>
               Address:
               <a href="#" target="_blank">
-                55 East 10th Street, New York, NY 10003, United States
+                138 Ch. Peasley, Magog, QC J1X 7W4, Canada
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              Address:
+              <a href="#" target="_blank">
+                29th Floor One Canada Square Canary Wharf London E14 5DY United Kingdom
               </a>
             </p>
           </li>

@@ -191,8 +191,12 @@ export default function Footer2({
                       <ul>
                         <li className="support-item-footer caption-1">
                           <span>
-                            101 E 129th St, East Chicago, IN <br />
-                            46312, US
+                            138 Ch. Peasley, Magog, QC J1X 7W4, Canada
+                          </span>
+                        </li>
+                        <li className="support-item-footer caption-1">
+                          <span>
+                            29th Floor One Canada Square Canary Wharf London E14 5DY United Kingdom
                           </span>
                         </li>
                         <li className="support-item-footer caption-1">

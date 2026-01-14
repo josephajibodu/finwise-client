@@ -25,7 +25,9 @@ export default function Contact() {
                     Need Help Recovering Your Lost Funds? Let's Talk.
                   </h3>
                   <div className="sub-title body-2 wow fadeInUp">
-                    Submit your information below and one of our recovery experts will reach out to you as soon as possible for a confidential case review.
+                    Submit your information below and one of our recovery
+                    experts will reach out to you as soon as possible for a
+                    confidential case review.
                   </div>
                 </div>
                 <div className="cols">
@@ -95,12 +97,42 @@ export default function Contact() {
                         className="caption-1 text wow fadeInUp"
                         data-wow-delay=".1s"
                       >
-                        55 East 10th Street, New York, NY 10003, United States
+                        138 Ch. Peasley, Magog, QC J1X 7W4, Canada
                       </a>
                       <a
-                        href="#"
+                        href="https://maps.app.goo.gl/wkBeepRLE2HXEgJVA"
+                        target="_blank"
                         className="label text-btn-uppercase wow fadeInUp"
                         data-wow-delay=".1s"
+                      >
+                        Get direction
+                      </a>
+                    </div>
+                  </div>
+                  <div className="box-contact-item">
+                    <div className="icon wow fadeInUp" data-wow-delay=".1s">
+                      <i className="icon-MapPin" />
+                    </div>
+                    <div className="content">
+                      <div
+                        className="caption-1 title-section-contact wow fadeInUp"
+                        data-wow-delay=".2s"
+                      >
+                        Address Business
+                      </div>
+                      <a
+                        href="#"
+                        className="caption-1 text wow fadeInUp"
+                        data-wow-delay=".2s"
+                      >
+                        29th Floor One Canada Square Canary Wharf London E14 5DY
+                        United Kingdom
+                      </a>
+                      <a
+                        href="https://maps.app.goo.gl/ReF1m4QUUz8SUTMs5"
+                        target="_blank"
+                        className="label text-btn-uppercase wow fadeInUp"
+                        data-wow-delay=".2s"
                       >
                         Get direction
                       </a>

@@ -53,7 +53,14 @@ export default function Header3({
                   <div className="top-bar-content">
                     <i className="icon-MapPin" />
                     <p className="caption-1">
-                      101 E 129th St, East Chicago, IN 46312, US
+                      138 Ch. Peasley, Magog, QC J1X 7W4, Canada
+                    </p>
+                  </div>
+                  <div className="top-bar-content">
+                    <i className="icon-MapPin" />
+                    <p className="caption-1">
+                      29th Floor One Canada Square Canary Wharf London E14 5DY
+                      United Kingdom
                     </p>
                   </div>
                   <div className="top-bar-content">
@@ -62,8 +69,9 @@ export default function Header3({
                       contact@folcocapitals.com
                     </a>
                   </div>
+
                   <div
-                    className="tf-dropdown-sort tf-language"
+                    className="tf-dropdown-sort tf-language d-none"
                     data-bs-toggle="dropdown"
                   >
                     <div className="btn-select">
@@ -79,7 +87,8 @@ export default function Header3({
                       </div>
                     </div>
                   </div>
-                  <ul className="tf-social style-border radius-50">
+
+                  <ul className="tf-social style-border radius-50 d-none">
                     <li className="item">
                       <a href="#">
                         <div className="icon">
