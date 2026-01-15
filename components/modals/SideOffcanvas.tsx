@@ -37,21 +37,13 @@ export default function SideOffcanvas() {
           </li>
           <li>
             <p>
-              Address:
-              <a href="#" target="_blank">
-                29th Floor One Canada Square Canary Wharf London E14 5DY United Kingdom
-              </a>
-            </p>
-          </li>
-          <li>
-            <p>
               Email:
               <a href="mailto:contact@folcocapitals.com"> contact@folcocapitals.com </a>
             </p>
           </li>
           <li>
             <p>
-              Call: <a href="tel:+00012345688"> +000 (123) 456 88</a>
+              Call: <a href="tel:+14038797826"> +14038797826</a>
             </p>
           </li>
         </ul>

@@ -279,22 +279,6 @@ export default function Details1() {
                   </div>
                   <div className="box-contact-item">
                     <div className="icon">
-                      <i className="icon-MapPin" />
-                    </div>
-                    <div className="content">
-                      <div className="caption-1 title-section-contact">
-                        Address Business
-                      </div>
-                      <a href="#" className="caption-1 text">
-                        29th Floor One Canada Square Canary Wharf London E14 5DY United Kingdom
-                      </a>
-                      <a href="#" className="label text-btn-uppercase">
-                        Get direction
-                      </a>
-                    </div>
-                  </div>
-                  <div className="box-contact-item">
-                    <div className="icon">
                       <i className="icon-PhoneCall" />
                     </div>
                     <div className="content">
@@ -302,9 +286,7 @@ export default function Details1() {
                         Contact Us
                       </div>
                       <a href="#" className="caption-1 text">
-                        1-555-678-8888
-                        <br />
-                        1-333-123-6666
+                        +14038797826
                       </a>
                     </div>
                   </div>

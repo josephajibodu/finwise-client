@@ -110,35 +110,6 @@ export default function Contact() {
                     </div>
                   </div>
                   <div className="box-contact-item">
-                    <div className="icon wow fadeInUp" data-wow-delay=".1s">
-                      <i className="icon-MapPin" />
-                    </div>
-                    <div className="content">
-                      <div
-                        className="caption-1 title-section-contact wow fadeInUp"
-                        data-wow-delay=".2s"
-                      >
-                        Address Business
-                      </div>
-                      <a
-                        href="#"
-                        className="caption-1 text wow fadeInUp"
-                        data-wow-delay=".2s"
-                      >
-                        29th Floor One Canada Square Canary Wharf London E14 5DY
-                        United Kingdom
-                      </a>
-                      <a
-                        href="https://maps.app.goo.gl/ReF1m4QUUz8SUTMs5"
-                        target="_blank"
-                        className="label text-btn-uppercase wow fadeInUp"
-                        data-wow-delay=".2s"
-                      >
-                        Get direction
-                      </a>
-                    </div>
-                  </div>
-                  <div className="box-contact-item">
                     <div className="icon wow fadeInUp" data-wow-delay=".2s">
                       <i className="icon-PhoneCall" />
                     </div>
@@ -149,12 +120,12 @@ export default function Contact() {
                       >
                         Contact Us
                       </div>
-                      <a href="#">
+                      <a href="tel:+14038797826">
                         <p
                           className="caption-1 text wow fadeInUp"
                           data-wow-delay=".3s"
                         >
-                          +000 (123) 456 88
+                          +14038797826
                         </p>
                       </a>
                     </div>

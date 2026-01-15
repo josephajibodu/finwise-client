@@ -57,13 +57,6 @@ export default function Header3({
                     </p>
                   </div>
                   <div className="top-bar-content">
-                    <i className="icon-MapPin" />
-                    <p className="caption-1">
-                      29th Floor One Canada Square Canary Wharf London E14 5DY
-                      United Kingdom
-                    </p>
-                  </div>
-                  <div className="top-bar-content">
                     <i className="icon-Envelope" />
                     <a href="#" className="caption-1 color-white">
                       contact@folcocapitals.com
@@ -159,12 +152,12 @@ export default function Header3({
                 </div>
                 <div className="header-right">
                   <div className="tf-phone">
-                    <a href="#" className="icon">
+                    <a href="tel:+14038797826" className="icon">
                       <i className="icon-PhoneCall" />
                     </a>
                     <div className="content">
                       <p className="caption-2">Have any Question?</p>
-                      <a href="#">1-555-678-8888</a>
+                      <a href="tel:+14038797826">+14038797826</a>
                     </div>
                   </div>
                   <div className="nav-icon">

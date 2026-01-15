@@ -195,12 +195,7 @@ export default function Footer2({
                           </span>
                         </li>
                         <li className="support-item-footer caption-1">
-                          <span>
-                            29th Floor One Canada Square Canary Wharf London E14 5DY United Kingdom
-                          </span>
-                        </li>
-                        <li className="support-item-footer caption-1">
-                          <span>1-555-678-8888</span>
+                          <span>+14038797826</span>
                         </li>
                         <li className="support-item-footer caption-1">
                           <span>contact@folcocapitals.com</span>

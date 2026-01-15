@@ -16,13 +16,6 @@ export default function Topbar1() {
                   </p>
                 </div>
                 <div className="top-bar-content">
-                  <i className="icon-MapPin" />
-                  <p className="caption-1">
-                    29th Floor One Canada Square Canary Wharf London E14 5DY
-                    United Kingdom
-                  </p>
-                </div>
-                <div className="top-bar-content">
                   <i className="icon-Envelope" />
                   <a href="#" className="caption-1 color-white">
                     contact@folcocapitals.com
@@ -35,7 +28,7 @@ export default function Topbar1() {
                   <div className="icon">
                     <i className="icon-PhoneCall" />
                   </div>
-                  <p className="text-btn">+000 (123) 456 88</p>
+                  <p className="text-btn">+14038797826</p>
                 </div>
                 <div className="tf-tb-social d-none">
                   <ul className="tf-social">

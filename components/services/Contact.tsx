@@ -35,8 +35,8 @@ export default function Contact() {
                 <div className="caption-1 title-section-contact">
                   Phone
                 </div>
-                <a href="tel:+00012345688" className="caption-1 text">
-                  +000 (123) 456 88
+                <a href="tel:+14038797826" className="caption-1 text">
+                  +14038797826
                 </a>
               </div>
             </div>
@@ -50,19 +50,6 @@ export default function Contact() {
                 </div>
                 <a href="#" className="caption-1 text">
                   138 Ch. Peasley, Magog, QC J1X 7W4, Canada
-                </a>
-              </div>
-            </div>
-            <div className="box-contact-item">
-              <div className="icon">
-                <i className="icon-MapPin" />
-              </div>
-              <div className="content">
-                <div className="caption-1 title-section-contact">
-                  Address
-                </div>
-                <a href="#" className="caption-1 text">
-                  29th Floor One Canada Square Canary Wharf London E14 5DY United Kingdom
                 </a>
               </div>
             </div>
