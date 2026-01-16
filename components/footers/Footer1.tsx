@@ -125,7 +125,7 @@ export default function Footer1({ parentClass = "footer" }) {
                             className="icon-PhoneCall"
                             style={{ marginRight: "8px" }}
                           />
-                          +000 (123) 456 88
+                          +14038797826
                         </p>
                       </div>
                       <div className="contact-footer-content">
@@ -161,7 +161,7 @@ export default function Footer1({ parentClass = "footer" }) {
                   style={{ width: "100%", textAlign: "center" }}
                 >
                   <div className="text caption-1">
-                    © 2025 FOLCO CAPITAL. ALL RIGHTS RESERVED.
+                    © {new Date().getFullYear()} FOLCO CAPITAL. ALL RIGHTS RESERVED.
                   </div>
                 </div>
               </div>
