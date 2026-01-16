@@ -46,7 +46,7 @@ export default function Cta() {
                       <div className="content wow fadeInUp">
                         <p className="caption-2 mb-2">Have any Question?</p>
                         <h6>
-                          <a href="#">1-555-678-8888</a>
+                          <a href="tel:+14038797826">+14038797826</a>
                         </h6>
                       </div>
                     </div>
