@@ -5,9 +5,9 @@ import React from "react";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
-    "Business Email Compromise (BEC) Fund Recovery - Cand Capital Limited",
+    "Business Email Compromise (BEC) Fund Recovery - Folco Capitals Limited",
   description:
-    "Expert BEC scam recovery services. Cand Capital Limited helps victims of business email compromise attacks trace and recover lost funds through legal and forensic solutions.",
+    "Expert BEC scam recovery services. Folco Capitals Limited helps victims of business email compromise attacks trace and recover lost funds through legal and forensic solutions.",
 };
 export default function page() {
   return (

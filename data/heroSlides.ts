@@ -1,17 +1,17 @@
 export const slides = [
   {
-    title: "Recover What's Yours &\nRebuild Stronger",
-    subtitle: "With expert-led asset tracing, legal enforcement, and digital forensics, Cand Capital Limited helps you take back control.",
+    title: "Expert Fund Recovery\nServices You Can Trust",
+    subtitle: "Folco Capitals Limited specializes in tracing and recovering stolen funds from cryptocurrency scams, investment fraud, and online financial crimes. Our proven track record speaks for itself.",
     buttonText: "GET STARTED",
   },
   {
-    title: "Recover What's Yours &\nRebuild Stronger",
-    subtitle: "With expert-led asset tracing, legal enforcement, and digital forensics, Cand Capital Limited helps you take back control.",
+    title: "Your Money Deserves\nTo Come Home",
+    subtitle: "Time is critical when recovering stolen funds. Folco Capitals Limited combines cutting-edge forensic technology with legal expertise to maximize your chances of full recovery.",
     buttonText: "GET STARTED",
   },
   {
-    title: "Recover What's Yours &\nRebuild Stronger",
-    subtitle: "With expert-led asset tracing, legal enforcement, and digital forensics, Cand Capital Limited helps you take back control.",
+    title: "Professional Recovery\nTailored to Your Case",
+    subtitle: "Every scam is unique. Folco Capitals Limited provides personalized recovery strategies backed by years of experience helping victims reclaim what's rightfully theirs.",
     buttonText: "GET STARTED",
   },
 ];

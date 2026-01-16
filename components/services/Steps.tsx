@@ -5,7 +5,7 @@ export default function Steps() {
     <>
       <h3 className="title-content mb-20">Our BEC Scam Recovery Process</h3>
       <p className="text mb-32">
-        At <strong>Cand Capital Limited</strong>, we deploy a rapid response protocol to trace, halt, and recover compromised payments:
+        At <strong>Folco Capitals Limited</strong>, we deploy a rapid response protocol to trace, halt, and recover compromised payments:
       </p>
       <div className="process-list style-column">
         <div className="process-item style-3 style-3-2">

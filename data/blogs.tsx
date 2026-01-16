@@ -5,7 +5,7 @@ export const posts = [
     imgWidth: 403,
     imgHeight: 303,
     category: "Scam Alert",
-    title: "How to Recover Your Funds From Scams – Comprehensive Guide by Cand Capital Ltd",
+    title: "How to Recover Your Funds From Scams – Comprehensive Guide by Folco Capitals Limited",
     description:
       "Introduction: The Rising Threat of Scams. Scams have become an increasingly common threat. Learn how to protect yourself and recover lost funds.",
     date: {

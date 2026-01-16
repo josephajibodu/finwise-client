@@ -26,7 +26,7 @@ export default function Details1() {
                 Business Email Compromise (BEC) is one of the most financially damaging types of cybercrime. Scammers infiltrate or impersonate company email accounts to redirect payments, issue fake invoices, or instruct staff to wire funds to criminal-controlled bank accounts or crypto wallets. These attacks are precise, professional, and often devastating to both individuals and organizations.
               </p>
               <p className="text mb-40">
-                At <strong>Cand Capital Limited</strong>, we help victims of BEC attacks trace stolen funds and pursue recovery. Using forensic investigation, institutional collaboration, and legal escalation, we move fast to freeze, recall, or reclaim misdirected payments.
+                At <strong>Folco Capitals Limited</strong>, we help victims of BEC attacks trace stolen funds and pursue recovery. Using forensic investigation, institutional collaboration, and legal escalation, we move fast to freeze, recall, or reclaim misdirected payments.
               </p>
             </div>
             <div className="detalis-content mb-60">
@@ -85,7 +85,7 @@ export default function Details1() {
               <Steps />
             </div>
             <div className="detalis-content mb-60">
-              <h3 className="title-content mb-20">How Cand Capital Limited Helps Recover Funds from BEC Scams</h3>
+              <h3 className="title-content mb-20">How Folco Capitals Limited Helps Recover Funds from BEC Scams</h3>
               <p className="text mb-32">
                 BEC recovery requires speed, precision, and institutional leverage. Here's how we support you:
               </p>
@@ -154,7 +154,7 @@ export default function Details1() {
               </div>
             </div>
             <div className="detalis-content mb-60">
-              <h3 className="title-content mb-20">Why Choose Cand Capital Limited for BEC Scam Recovery?</h3>
+              <h3 className="title-content mb-20">Why Choose Folco Capitals Limited for BEC Scam Recovery?</h3>
               <div className="benefit-lists mb-20">
                 <div className="benefit-items">
                   <div className="icon">
@@ -247,9 +247,9 @@ export default function Details1() {
               </p>
             </div>
             <div className="detalis-content mb-60">
-              <h3 className="title-content mb-20">Act Now with Cand Capital Limited - Time Is Critical</h3>
+              <h3 className="title-content mb-20">Act Now with Folco Capitals Limited - Time Is Critical</h3>
               <p className="text mb-32">
-                BEC attacks are time-sensitive. The longer you wait, the harder recovery becomes. If you've authorized a payment to a scam account—even if it seemed legitimate—<strong>Cand Capital Limited</strong> can act fast to trace and recover your funds.
+                BEC attacks are time-sensitive. The longer you wait, the harder recovery becomes. If you've authorized a payment to a scam account—even if it seemed legitimate—<strong>Folco Capitals Limited</strong> can act fast to trace and recover your funds.
               </p>
               <Link
                 href={`/contact-us`}
@@ -272,7 +272,7 @@ export default function Details1() {
               <div className="section-content position-relative">
                 <div className="heading-section mb-28">
                   <h4 className="title-section mb-12">
-                    <i className="icon-Briefcase" /> Cand Capital Limited
+                    <i className="icon-Briefcase" /> Folco Capitals Limited
                   </h4>
                   <p className="text mb-20">Company number: 10699502</p>
                   <Link

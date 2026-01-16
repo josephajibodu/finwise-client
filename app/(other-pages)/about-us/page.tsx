@@ -7,9 +7,9 @@ import Breadcumb from "@/components/common/Breadcumb";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
-    "About Us - Cand Capital Limited - Expert Fund Recovery & Financial Investigations",
+    "About Us - Folco Capitals Limited - Expert Fund Recovery & Financial Investigations",
   description:
-    "Learn about Cand Capital Limited, a leading fund recovery and financial investigation firm committed to helping victims of online scams reclaim what's rightfully theirs.",
+    "Learn about Folco Capitals Limited, a leading fund recovery and financial investigation firm committed to helping victims of online scams reclaim what's rightfully theirs.",
 };
 export default function page() {
   return (

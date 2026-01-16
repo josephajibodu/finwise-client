@@ -46,7 +46,7 @@ export default function Faqs() {
                         data-bs-toggle="collapse"
                         className="title-according"
                       >
-                        What types of scams can Cand Capital Limited help with? <span />
+                        What types of scams can Folco Capitals Limited help with? <span />
                       </a>
                     </h5>
                     <div
@@ -56,7 +56,7 @@ export default function Faqs() {
                     >
                       <div className="according-content">
                         <p>
-                          Cand Capital Limited specializes in recovering funds lost to a wide range of scams including cryptocurrency fraud, unregulated forex and trading platforms, romance scams, fake investment schemes, and online financial deception. Our team uses legal, forensic, and digital tools to trace and reclaim lost assets.
+                          Folco Capitals Limited specializes in recovering funds lost to a wide range of scams including cryptocurrency fraud, unregulated forex and trading platforms, romance scams, fake investment schemes, and online financial deception. Our team uses legal, forensic, and digital tools to trace and reclaim lost assets.
                         </p>
                       </div>
                     </div>
@@ -137,7 +137,7 @@ export default function Faqs() {
                         data-bs-toggle="collapse"
                         className="title-according collapsed"
                       >
-                        What makes Cand Capital Limited different from other recovery companies? <span />
+                        What makes Folco Capitals Limited different from other recovery companies? <span />
                       </a>
                     </h5>
                     <div

@@ -2,23 +2,23 @@
 import Link from "next/link";
 const slides = [
   {
-    title: "Recover What's Yours &<br />Rebuild Stronger",
+    title: "Expert Fund Recovery<br />Services You Can Trust",
     subtitle:
-      "With expert-led asset tracing, legal enforcement, and digital forensics, Cand Capital Limited helps you take back control.",
+      "Folco Capitals Limited specializes in tracing and recovering stolen funds from cryptocurrency scams, investment fraud, and online financial crimes. Our proven track record speaks for itself.",
     buttonText: "GET STARTED",
     buttonText2: "RECOVER FUNDS",
   },
   {
-    title: "Recover What's Yours &<br />Rebuild Stronger",
+    title: "Your Money Deserves<br />To Come Home",
     subtitle:
-      "With expert-led asset tracing, legal enforcement, and digital forensics, Cand Capital Limited helps you take back control.",
+      "Time is critical when recovering stolen funds. Folco Capitals Limited combines cutting-edge forensic technology with legal expertise to maximize your chances of full recovery.",
     buttonText: "GET STARTED",
     buttonText2: "RECOVER FUNDS",
   },
   {
-    title: "Recover What's Yours &<br />Rebuild Stronger",
+    title: "Professional Recovery<br />Tailored to Your Case",
     subtitle:
-      "With expert-led asset tracing, legal enforcement, and digital forensics, Cand Capital Limited helps you take back control.",
+      "Every scam is unique. Folco Capitals Limited provides personalized recovery strategies backed by years of experience helping victims reclaim what's rightfully theirs.",
     buttonText: "GET STARTED",
     buttonText2: "RECOVER FUNDS",
   },

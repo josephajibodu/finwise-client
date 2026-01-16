@@ -22,7 +22,7 @@ export default function About() {
                 We are a team of experts specialized in recovering funds for scam victims.
               </h3>
               <p className="text mb-20">
-                Cand Capital Limited is a global fund recovery and financial investigations firm established in 2017. We provide tailored solutions for individuals and businesses impacted by scams, fraudulent investment platforms, crypto theft, and unauthorized financial transactions. Our mission is to recover what's rightfully yours.
+                Folco Capitals Limited is a global fund recovery and financial investigations firm established in 2017. We provide tailored solutions for individuals and businesses impacted by scams, fraudulent investment platforms, crypto theft, and unauthorized financial transactions. Our mission is to recover what's rightfully yours.
               </p>
               <div className="mb-28">
                 <h6 className="mb-16">What We Offer:</h6>

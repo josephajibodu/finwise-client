@@ -15,9 +15,9 @@ import Footer1 from "@/components/footers/Footer1";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
-    "Cand Capital Limited - Expert Fund Recovery & Financial Investigations",
+    "Folco Capitals Limited - Expert Fund Recovery & Financial Investigations",
   description:
-    "Cand Capital Limited helps scam victims recover lost funds through legal, forensic, and digital solutions. Expert fund recovery services since 2017.",
+    "Folco Capitals Limited helps scam victims recover lost funds through legal, forensic, and digital solutions. Expert fund recovery services since 2017.",
 };
 export default function page() {
   return (
